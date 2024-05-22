@@ -1,0 +1,1017 @@
+{
+  "type": "CIMLayerDocument",
+  "version": "2.8.0",
+  "build": 29751,
+  "layers": [
+    "CIMPATH=wi_scout_n_hunt_base__2024_r4a_next_update_08_15_24/d010f1bd1d89c3cd1740314725be7002.xml"
+  ],
+  "layerDefinitions": [
+    {
+      "type": "CIMFeatureLayer",
+      "name": "WI_USFS_Road_MVUM types of motorized vehicles allowed on designated routes_seasonal use",
+      "uRI": "CIMPATH=wi_scout_n_hunt_base__2024_r4a_next_update_08_15_24/d010f1bd1d89c3cd1740314725be7002.xml",
+      "sourceModifiedTime": {
+        "type": "TimeInstant"
+      },
+      "metadataURI": "CIMPATH=Metadata/41617ae3160442ca385ee352584364be.xml",
+      "useSourceMetadata": false,
+      "layerType": "Operational",
+      "maxScale": 7500,
+      "minScale": 100000,
+      "showLegends": true,
+      "visibility": true,
+      "displayCacheType": "Permanent",
+      "maxDisplayCacheAge": 5,
+      "showPopups": true,
+      "serviceLayerID": -1,
+      "refreshRate": -1,
+      "refreshRateUnit": "esriTimeUnitsSeconds",
+      "blendingMode": "Alpha",
+      "allowDrapingOnIntegratedMesh": true,
+      "featureTable": {
+        "type": "CIMFeatureTable",
+        "displayField": "NAME",
+        "editable": true,
+        "fieldDescriptions": [
+          {
+            "type": "CIMFieldDescription",
+            "alias": "FID",
+            "fieldName": "FID",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "readOnly": true,
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Shape",
+            "fieldName": "Shape",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "RTE_CN",
+            "fieldName": "RTE_CN",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "ID",
+            "fieldName": "ID",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "NAME",
+            "fieldName": "NAME",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "BMP",
+            "fieldName": "BMP",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 4
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "EMP",
+            "fieldName": "EMP",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 4
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SEG_LENGTH",
+            "fieldName": "SEG_LENGTH",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 4
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "GIS_MILES",
+            "fieldName": "GIS_MILES",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 4
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SYMBOL",
+            "fieldName": "SYMBOL",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "MVUM_SYMBO",
+            "fieldName": "MVUM_SYMBO",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "JURISDICTI",
+            "fieldName": "JURISDICTI",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "OPERATIONA",
+            "fieldName": "OPERATIONA",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SURFACETYP",
+            "fieldName": "SURFACETYP",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SYSTEM",
+            "fieldName": "SYSTEM",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SEASONAL",
+            "fieldName": "SEASONAL",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "PASSENGERV",
+            "fieldName": "PASSENGERV",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "PASSENGE_1",
+            "fieldName": "PASSENGE_1",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "HIGHCLEARA",
+            "fieldName": "HIGHCLEARA",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "HIGHCLEA_1",
+            "fieldName": "HIGHCLEA_1",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "TRUCK",
+            "fieldName": "TRUCK",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "TRUCK_DATE",
+            "fieldName": "TRUCK_DATE",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "BUS",
+            "fieldName": "BUS",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "BUS_DATESO",
+            "fieldName": "BUS_DATESO",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "MOTORHOME",
+            "fieldName": "MOTORHOME",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "MOTORHOME_",
+            "fieldName": "MOTORHOME_",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "FOURWD_GT5",
+            "fieldName": "FOURWD_GT5",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "FOURWD_G_1",
+            "fieldName": "FOURWD_G_1",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "TWOWD_GT50",
+            "fieldName": "TWOWD_GT50",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "TWOWD_GT_1",
+            "fieldName": "TWOWD_GT_1",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "TRACKED_OH",
+            "fieldName": "TRACKED_OH",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "TRACKED__1",
+            "fieldName": "TRACKED__1",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "OTHER_OHV_",
+            "fieldName": "OTHER_OHV_",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "OTHER_OHV1",
+            "fieldName": "OTHER_OHV1",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "ATV",
+            "fieldName": "ATV",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "ATV_DATESO",
+            "fieldName": "ATV_DATESO",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "MOTORCYCLE",
+            "fieldName": "MOTORCYCLE",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "MOTORCYC_1",
+            "fieldName": "MOTORCYC_1",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "OTHERWHEEL",
+            "fieldName": "OTHERWHEEL",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "OTHERWHE_1",
+            "fieldName": "OTHERWHE_1",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "TRACKED__2",
+            "fieldName": "TRACKED__2",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "TRACKED__3",
+            "fieldName": "TRACKED__3",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "OTHER_OH_1",
+            "fieldName": "OTHER_OH_1",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "OTHER_OH_2",
+            "fieldName": "OTHER_OH_2",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "ADMINORG",
+            "fieldName": "ADMINORG",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SECURITYID",
+            "fieldName": "SECURITYID",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "DISTRICTNA",
+            "fieldName": "DISTRICTNA",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "FORESTNAME",
+            "fieldName": "FORESTNAME",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "FIELD_ID",
+            "fieldName": "FIELD_ID",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SBS_SYMBOL",
+            "fieldName": "SBS_SYMBOL",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "ROUTESTATU",
+            "fieldName": "ROUTESTATU",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "GLOBALID",
+            "fieldName": "GLOBALID",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "TA_SYMBOL",
+            "fieldName": "TA_SYMBOL",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "E_BIKE_CLA",
+            "fieldName": "E_BIKE_CLA",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "E_BIKE_C_1",
+            "fieldName": "E_BIKE_C_1",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "E_BIKE_C_2",
+            "fieldName": "E_BIKE_C_2",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "E_BIKE_C_3",
+            "fieldName": "E_BIKE_C_3",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "E_BIKE_C_4",
+            "fieldName": "E_BIKE_C_4",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "E_BIKE_C_5",
+            "fieldName": "E_BIKE_C_5",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SHAPE_LEN",
+            "fieldName": "SHAPE_LEN",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          }
+        ],
+        "timeFields": {
+          "type": "CIMTimeTableDefinition"
+        },
+        "timeDefinition": {
+          "type": "CIMTimeDataDefinition",
+          "hasLiveData": true
+        },
+        "timeDisplayDefinition": {
+          "type": "CIMTimeDisplayDefinition",
+          "timeInterval": 0,
+          "timeIntervalUnits": "esriTimeUnitsHours",
+          "timeOffsetUnits": "esriTimeUnitsYears"
+        },
+        "dataConnection": {
+          "type": "CIMStandardDataConnection",
+          "workspaceConnectionString": "DATABASE=..\\..\\..\\..\\Documents\\ArcGIS\\Packages\\WI_2024 R6_cf739b\\commondata\\usfs_transportation",
+          "workspaceFactory": "Shapefile",
+          "dataset": "WI_USFS_Road_MVUM",
+          "datasetType": "esriDTFeatureClass"
+        },
+        "studyAreaSpatialRel": "esriSpatialRelUndefined",
+        "searchOrder": "esriSearchOrderSpatial"
+      },
+      "featureTemplates": [
+        {
+          "type": "CIMFeatureTemplate",
+          "name": "WI_USFS_Road_MVUM types of motorized vehicles allowed on designated routes_seasonal use",
+          "tags": "Line",
+          "defaultValues": {
+            "type": "PropertySet",
+            "propertySetItems": [
+              "PASSENGE_1",
+              "",
+              "SBS_SYMBOL",
+              "",
+              "GIS_MILES",
+              0,
+              "MVUM_SYMBO",
+              "",
+              "E_BIKE_C_4",
+              "",
+              "FOURWD_G_1",
+              "",
+              "BMP",
+              0,
+              "GLOBALID",
+              "",
+              "OTHERWHE_1",
+              "",
+              "SEG_LENGTH",
+              0,
+              "E_BIKE_C_5",
+              "",
+              "ADMINORG",
+              "",
+              "HIGHCLEA_1",
+              "",
+              "MOTORCYCLE",
+              "",
+              "OTHERWHEEL",
+              "",
+              "MOTORHOME",
+              "",
+              "SEASONAL",
+              "",
+              "EMP",
+              0,
+              "SECURITYID",
+              "",
+              "TRUCK_DATE",
+              "",
+              "OTHER_OH_1",
+              "",
+              "SHAPE_LEN",
+              0,
+              "RTE_CN",
+              "",
+              "OTHER_OH_2",
+              "",
+              "BUS_DATESO",
+              "",
+              "ATV_DATESO",
+              "",
+              "FORESTNAME",
+              "",
+              "TWOWD_GT_1",
+              "",
+              "TRACKED__1",
+              "",
+              "OTHER_OHV_",
+              "",
+              "TRACKED__2",
+              "",
+              "SYMBOL",
+              "",
+              "TRUCK",
+              "",
+              "MOTORHOME_",
+              "",
+              "TRACKED__3",
+              "",
+              "TA_SYMBOL",
+              0,
+              "ROUTESTATU",
+              "",
+              "OPERATIONA",
+              "",
+              "ID",
+              "",
+              "FIELD_ID",
+              "",
+              "SURFACETYP",
+              "",
+              "BUS",
+              "",
+              "NAME",
+              "",
+              "TRACKED_OH",
+              "",
+              "JURISDICTI",
+              "",
+              "OTHER_OHV1",
+              "",
+              "TWOWD_GT50",
+              "",
+              "E_BIKE_C_1",
+              "",
+              "HIGHCLEARA",
+              "",
+              "MOTORCYC_1",
+              "",
+              "SYSTEM",
+              "",
+              "E_BIKE_CLA",
+              "",
+              "E_BIKE_C_2",
+              "",
+              "FOURWD_GT5",
+              "",
+              "ATV",
+              "",
+              "PASSENGERV",
+              "",
+              "E_BIKE_C_3",
+              "",
+              "DISTRICTNA",
+              ""
+            ]
+          }
+        }
+      ],
+      "htmlPopupEnabled": true,
+      "htmlPopupFormat": {
+        "type": "CIMHtmlPopupFormat",
+        "htmlUseCodedDomainValues": true,
+        "htmlPresentationStyle": "TwoColumnTable"
+      },
+      "isFlattened": true,
+      "selectable": true,
+      "selectionSymbol": {
+        "type": "CIMSymbolReference",
+        "symbol": {
+          "type": "CIMLineSymbol",
+          "symbolLayers": [
+            {
+              "type": "CIMSolidStroke",
+              "enable": true,
+              "capStyle": "Round",
+              "joinStyle": "Round",
+              "lineStyle3D": "Strip",
+              "miterLimit": 10,
+              "width": 2,
+              "color": {
+                "type": "CIMRGBColor",
+                "values": [
+                  0,
+                  255,
+                  255,
+                  100
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "featureCacheType": "None",
+      "displayFiltersType": "ByScale",
+      "featureBlendingMode": "Alpha",
+      "labelClasses": [
+        {
+          "type": "CIMLabelClass",
+          "expression": "[NAME]",
+          "expressionEngine": "VBScript",
+          "featuresToLabel": "AllVisibleFeatures",
+          "maplexLabelPlacementProperties": {
+            "type": "CIMMaplexLabelPlacementProperties",
+            "featureType": "Line",
+            "avoidPolygonHoles": true,
+            "canOverrunFeature": false,
+            "canPlaceLabelOutsidePolygon": true,
+            "canReduceFontSize": true,
+            "canRemoveOverlappingLabel": true,
+            "canStackLabel": true,
+            "connectionType": "MinimizeLabels",
+            "constrainOffset": "AboveLine",
+            "contourAlignmentType": "Page",
+            "contourLadderType": "Straight",
+            "contourMaximumAngle": 90,
+            "enableConnection": true,
+            "featureWeight": 0,
+            "fontHeightReductionLimit": 4,
+            "fontHeightReductionStep": 0.5,
+            "fontWidthReductionLimit": 90,
+            "fontWidthReductionStep": 5,
+            "graticuleAlignmentType": "Straight",
+            "keyNumberGroupName": "Default",
+            "labelBuffer": 15,
+            "labelLargestPolygon": true,
+            "labelPriority": -1,
+            "labelStackingProperties": {
+              "type": "CIMMaplexLabelStackingProperties",
+              "stackAlignment": "ChooseBest",
+              "maximumNumberOfLines": 3,
+              "minimumNumberOfCharsPerLine": 3,
+              "maximumNumberOfCharsPerLine": 24,
+              "separators": [
+                {
+                  "type": "CIMMaplexStackingSeparator",
+                  "separator": " ",
+                  "splitAfter": true
+                },
+                {
+                  "type": "CIMMaplexStackingSeparator",
+                  "separator": ",",
+                  "visible": true,
+                  "splitAfter": true
+                }
+              ],
+              "trimStackingSeparators": true
+            },
+            "lineFeatureType": "General",
+            "linePlacementMethod": "OffsetStraightFromLine",
+            "maximumLabelOverrun": 16,
+            "maximumLabelOverrunUnit": "Point",
+            "minimumFeatureSizeUnit": "Map",
+            "multiPartOption": "OneLabelPerFeature",
+            "offsetAlongLineProperties": {
+              "type": "CIMMaplexOffsetAlongLineProperties",
+              "placementMethod": "BestPositionAlongLine",
+              "labelAnchorPoint": "CenterOfLabel",
+              "distanceUnit": "Map",
+              "useLineDirection": true
+            },
+            "pointExternalZonePriorities": {
+              "type": "CIMMaplexExternalZonePriorities",
+              "aboveLeft": 4,
+              "aboveCenter": 2,
+              "aboveRight": 1,
+              "centerRight": 3,
+              "belowRight": 5,
+              "belowCenter": 7,
+              "belowLeft": 8,
+              "centerLeft": 6
+            },
+            "pointPlacementMethod": "AroundPoint",
+            "polygonAnchorPointType": "GeometricCenter",
+            "polygonBoundaryWeight": 0,
+            "polygonExternalZones": {
+              "type": "CIMMaplexExternalZonePriorities",
+              "aboveLeft": 4,
+              "aboveCenter": 2,
+              "aboveRight": 1,
+              "centerRight": 3,
+              "belowRight": 5,
+              "belowCenter": 7,
+              "belowLeft": 8,
+              "centerLeft": 6
+            },
+            "polygonFeatureType": "General",
+            "polygonInternalZones": {
+              "type": "CIMMaplexInternalZonePriorities",
+              "center": 1
+            },
+            "polygonPlacementMethod": "CurvedInPolygon",
+            "primaryOffset": 1,
+            "primaryOffsetUnit": "Point",
+            "removeExtraWhiteSpace": true,
+            "repetitionIntervalUnit": "Map",
+            "rotationProperties": {
+              "type": "CIMMaplexRotationProperties",
+              "rotationType": "Arithmetic",
+              "alignmentType": "Straight"
+            },
+            "secondaryOffset": 100,
+            "strategyPriorities": {
+              "type": "CIMMaplexStrategyPriorities",
+              "stacking": 1,
+              "overrun": 2,
+              "fontCompression": 3,
+              "fontReduction": 4,
+              "abbreviation": 5
+            },
+            "thinDuplicateLabels": true,
+            "thinningDistanceUnit": "Point",
+            "truncationMarkerCharacter": ".",
+            "truncationMinimumLength": 1,
+            "truncationPreferredCharacters": "aeiou",
+            "polygonAnchorPointPerimeterInsetUnit": "Point"
+          },
+          "maximumScale": 7500,
+          "minimumScale": 60000,
+          "name": "Default",
+          "priority": 16,
+          "standardLabelPlacementProperties": {
+            "type": "CIMStandardLabelPlacementProperties",
+            "featureType": "Line",
+            "featureWeight": "None",
+            "labelWeight": "High",
+            "numLabelsOption": "OneLabelPerName",
+            "lineLabelPosition": {
+              "type": "CIMStandardLineLabelPosition",
+              "above": true,
+              "inLine": true,
+              "parallel": true
+            },
+            "lineLabelPriorities": {
+              "type": "CIMStandardLineLabelPriorities",
+              "aboveStart": 3,
+              "aboveAlong": 3,
+              "aboveEnd": 3,
+              "centerStart": 3,
+              "centerAlong": 3,
+              "centerEnd": 3,
+              "belowStart": 3,
+              "belowAlong": 3,
+              "belowEnd": 3
+            },
+            "pointPlacementMethod": "AroundPoint",
+            "pointPlacementPriorities": {
+              "type": "CIMStandardPointPlacementPriorities",
+              "aboveLeft": 2,
+              "aboveCenter": 2,
+              "aboveRight": 1,
+              "centerLeft": 3,
+              "centerRight": 2,
+              "belowLeft": 3,
+              "belowCenter": 3,
+              "belowRight": 2
+            },
+            "rotationType": "Arithmetic",
+            "polygonPlacementMethod": "AlwaysHorizontal"
+          },
+          "textSymbol": {
+            "type": "CIMSymbolReference",
+            "symbol": {
+              "type": "CIMTextSymbol",
+              "blockProgression": "TTB",
+              "compatibilityMode": true,
+              "depth3D": 1,
+              "drawSoftHyphen": true,
+              "extrapolateBaselines": true,
+              "flipAngle": 90,
+              "fontEffects": "Normal",
+              "fontEncoding": "Unicode",
+              "fontFamilyName": "Arial",
+              "fontStyleName": "Bold",
+              "fontType": "Unspecified",
+              "haloSize": 2,
+              "haloSymbol": {
+                "type": "CIMPolygonSymbol",
+                "symbolLayers": [
+                  {
+                    "type": "CIMSolidFill",
+                    "enable": true,
+                    "color": {
+                      "type": "CIMRGBColor",
+                      "values": [
+                        255,
+                        255,
+                        255,
+                        100
+                      ]
+                    }
+                  }
+                ]
+              },
+              "height": 10,
+              "hinting": "Default",
+              "horizontalAlignment": "Left",
+              "kerning": true,
+              "letterSpacing": 1,
+              "letterWidth": 100,
+              "ligatures": true,
+              "lineGapType": "ExtraLeading",
+              "shadowColor": {
+                "type": "CIMRGBColor",
+                "values": [
+                  0,
+                  0,
+                  0,
+                  100
+                ]
+              },
+              "symbol": {
+                "type": "CIMPolygonSymbol",
+                "symbolLayers": [
+                  {
+                    "type": "CIMSolidFill",
+                    "enable": true,
+                    "color": {
+                      "type": "CIMRGBColor",
+                      "values": [
+                        0,
+                        0,
+                        0,
+                        100
+                      ]
+                    }
+                  }
+                ]
+              },
+              "textCase": "Normal",
+              "textDirection": "LTR",
+              "verticalAlignment": "Baseline",
+              "verticalGlyphOrientation": "Right",
+              "wordSpacing": 100,
+              "billboardMode3D": "FaceNearPlane"
+            }
+          },
+          "useCodedValue": true,
+          "visibility": true,
+          "iD": -1
+        }
+      ],
+      "labelVisibility": true,
+      "renderer": {
+        "type": "CIMSimpleRenderer",
+        "patch": "Default",
+        "symbol": {
+          "type": "CIMSymbolReference",
+          "symbol": {
+            "type": "CIMLineSymbol",
+            "symbolLayers": [
+              {
+                "type": "CIMSolidStroke",
+                "effects": [
+                  {
+                    "type": "CIMGeometricEffectDashes",
+                    "dashTemplate": [
+                      24,
+                      12,
+                      4,
+                      0
+                    ],
+                    "lineDashEnding": "NoConstraint",
+                    "controlPointEnding": "NoConstraint"
+                  }
+                ],
+                "enable": true,
+                "capStyle": "Butt",
+                "joinStyle": "Round",
+                "lineStyle3D": "Strip",
+                "miterLimit": 10,
+                "width": 1.365546218487395,
+                "color": {
+                  "type": "CIMRGBColor",
+                  "values": [
+                    152,
+                    230,
+                    0,
+                    100
+                  ]
+                }
+              },
+              {
+                "type": "CIMSolidStroke",
+                "enable": true,
+                "colorLocked": true,
+                "capStyle": "Butt",
+                "joinStyle": "Round",
+                "lineStyle3D": "Strip",
+                "miterLimit": 10,
+                "width": 3,
+                "color": {
+                  "type": "CIMRGBColor",
+                  "values": [
+                    0,
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      "scaleSymbols": true,
+      "snappable": true
+    }
+  ],
+  "binaryReferences": [
+    {
+      "type": "CIMBinaryReference",
+      "uRI": "CIMPATH=Metadata/41617ae3160442ca385ee352584364be.xml",
+      "data": "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20240424</CreaDate><CreaTime>11583300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>WI_USFS_Road_MVUM types of motorized vehicles allowed on designated routes_seasonal use</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit></dataIdInfo></metadata>\r\n"
+    }
+  ],
+  "rGBColorProfile": "sRGB IEC61966-2.1",
+  "cMYKColorProfile": "U.S. Web Coated (SWOP) v2"
+}

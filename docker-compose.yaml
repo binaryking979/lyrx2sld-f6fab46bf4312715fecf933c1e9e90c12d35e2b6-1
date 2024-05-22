@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+
+  db:
+    image: postgis/postgis:14-3.2-alpine
+    environment:
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - 5432:5432
+
+  geoserver:
+    image: docker.osgeo.org/geoserver:2.24.2
+    ports: 
+      - 8080:8080
+    volumes:
+      - ${ESRI_FONT_PATH:-/usr/local/share/fonts/esri}:/usr/local/share/fonts/esri:ro
+
+  lyrx2sld:
+    image: lyrx2sld
+    command: /app/start-reload2.sh # For debug purpose.
+    ports:
+      - 80:80
+    volumes:
+      - ./bridge-style/bridgestyle:/usr/local/lib/python3.7/site-packages/bridgestyle # For debug purpose 
+      - ./app:/app # For debug purpose 

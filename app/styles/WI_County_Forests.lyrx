@@ -1,0 +1,528 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "2.8.0",
+  "build" : 29751,
+  "layers" : [
+    "CIMPATH=wi_scout_n_hunt_base__2024_r4a_next_update_08_15_24/965b020a582828652c7388c614ecfa24.xml"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMFeatureLayer",
+      "name" : "WI_County_Forests",
+      "uRI" : "CIMPATH=wi_scout_n_hunt_base__2024_r4a_next_update_08_15_24/965b020a582828652c7388c614ecfa24.xml",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "metadataURI" : "CIMPATH=Metadata/84cdc8fc44b35997c4cc353dc7780343.xml",
+      "useSourceMetadata" : false,
+      "attribution" : "WI DNR",
+      "description" : "DEFINITION:\nThis is the County Forests layer dissolved by county from a stand (or forest management) layer used in the Wisconsin Forest Inventory & Reporting System (WisFIRS) and intended for cartographic representation of county forests in Wisconsin.\n\"County forests\" include all county lands entered and participating under ch. 77 on October 2, 1963, and all county lands designated as county forests by the county board or the forestry committee and entered under the county forest law and designated as \"county forest lands\" or \"county special use lands\" as hereinafter provided.\nGEOGRAPHIC EXTENT:\nStatewide (Only 30 counties that have County Forest Lands).\nSOURCE SCALE:\nVaried\nPURPOSE/BACKGROUND:\nThe purpose of county forests is to provide a permanent program of county forests and to enable and encourage the planned development and management of the county forests for optimum production of forest products together with recreational opportunities, wildlife, watershed protection and stabilization of stream flow, giving full recognition to the concept of multiple-use to assure maximum public benefits; to protect the public rights, interests and investments in such lands; and to compensate the counties for the public uses, benefits and privileges these lands provide; all in a manner which will provide a reasonable revenue to the towns in which such lands lie.\u00A0 This layer was created to provide a more accurate representation of county forests beyond simply identifying PLSS quarter-quarter sections containing County Forests.\u00A0 The “PLSS method” of representation may overlap private or other ownership types.\nThis GIS layer was created by dissolving managed stand information from the WisFIRS Public Lands Management application.\u00A0 Stands coded as private (998 = inholding) or non-DNR (999, 9999 = non-DNR, Fed, etc.) were removed from the dissolve.\u00A0 The layer used to create this data is continually edited.\u00A0\nCONTACT PERSON(S):\nGIS contact Laura Waddle, DNR-IT, (608) 320-4648,\u00A0Laura.Waddle@Wisconsin.gov\nProgram contact Doug Brown, Forestry Field Operations, (715) 966-0157,\u00A0Douglas.Brown@wisconsin.gov\nUPDATE FREQUENCY:\nAnnual.\u00A0 Edits to County Forest stand information in WisFIRS used to generate the county forest feature class may occur at any time during the year; however, we will compile this layer annually.\u00A0\u00A0The GIS layer was last updated on September 20, 2021.\nPROJECTION:\nNAD_1983_HARN_Wisconsin_TM (Meters)\nWKID: 3071 Authority: EPSG\nATTRIBUTES:\nField Descriptions:\nFR_PROP_CO: Forestry Property Code assigned by DNR Forestry.\nPROP_NAME: Name of the property.\u00A0 Usually “County Name” County Forest\nCHANGE_DT: Date of most data update.\nCHANGE_BY: Name of person to do most recent data update.\nCOLL_CODE: Collection method code.\nOTH001: Other collection method.\nCOLL_TEXT: Description of collection method.\nADDITIONAL INFORMATION:\nFor more information on the Wisconsin County Forests program, refer to the official website:\u00A0\u00A0https://www.wisconsincountyforests.com/\nUSER ADVISORY:\nThe completed treatments data in WisFIRS may not be entirely complete. The majority of treatments completed in the field have been entered into WisFIRS; however, there are some treatments that have not been recorded as completed in WisFIRS - particularly those implemented prior to October 2014. Additionally, not all treatments that have been completed in WisFIRS as tabular records of completed treatments have been mapped spatially in the WisFIRS GIS application – particularly those implemented prior to October 2014. Overall, most completed treatments have been recorded and mapped, but it is important to recognize that there are treatments that have not been accounted for in WisFIRS.\nNeither the Department of Natural Resources nor any of its employees shall be held liable for any improper or incorrect use of the information described and/or contained herein and assumes no responsibility for anyone's use of the information.\u00A0\u00A0Furthermore, no warranty, expressed or implied, is made regarding accuracy, adequacy, completeness, legality, reliability or usefulness of any information. The Department provides this information on an \"as is\" basis. The Department has made reasonable efforts to provide you with accurate information but cannot exclude the possibility of errors or omissions in sources or of changes in actual conditions. Changes may be periodically made to the information herein; these changes may or may not be incorporated in any new version of the data. If you have obtained information from the Department from a source other than the Department, be aware that electronic data can be altered subsequent to original distribution. Data can also quickly become out-of-date. It is recommended that careful attention be paid to the contents of all data, and that the originator of the data or information be contacted with any questions regarding appropriate use.\n\n",
+      "layerType" : "Operational",
+      "maxScale" : 7500,
+      "minScale" : 750000,
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "autoGenerateFeatureTemplates" : true,
+      "featureTable" : {
+        "type" : "CIMFeatureTable",
+        "displayField" : "PROP_NAME",
+        "editable" : true,
+        "fieldDescriptions" : [
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "FID",
+            "fieldName" : "FID",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0
+            },
+            "readOnly" : true,
+            "visible" : false,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Shape",
+            "fieldName" : "Shape",
+            "visible" : false,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "FR_PROP_CO",
+            "fieldName" : "FR_PROP_CO",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0
+            },
+            "visible" : false,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Property Name",
+            "fieldName" : "PROP_NAME",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "CHANGE_DT",
+            "fieldName" : "CHANGE_DT",
+            "visible" : false,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "CHANGE_BY",
+            "fieldName" : "CHANGE_BY",
+            "visible" : false,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "COLL_CODE",
+            "fieldName" : "COLL_CODE",
+            "visible" : false,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "COLL_TEXT",
+            "fieldName" : "COLL_TEXT",
+            "visible" : false,
+            "searchMode" : "Exact"
+          }
+        ],
+        "timeFields" : {
+          "type" : "CIMTimeTableDefinition"
+        },
+        "timeDefinition" : {
+          "type" : "CIMTimeDataDefinition",
+          "hasLiveData" : true
+        },
+        "timeDisplayDefinition" : {
+          "type" : "CIMTimeDisplayDefinition",
+          "timeInterval" : 0,
+          "timeIntervalUnits" : "esriTimeUnitsHours",
+          "timeOffsetUnits" : "esriTimeUnitsYears"
+        },
+        "dataConnection" : {
+          "type" : "CIMStandardDataConnection",
+          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\Documents\\ArcGIS\\Packages\\WI_2024 R6_cf739b\\commondata\\county_forests_-7743033173138165236",
+          "workspaceFactory" : "Shapefile",
+          "dataset" : "Wisconsin_County_Forests",
+          "datasetType" : "esriDTFeatureClass"
+        },
+        "studyAreaSpatialRel" : "esriSpatialRelUndefined",
+        "searchOrder" : "esriSearchOrderSpatial"
+      },
+      "htmlPopupEnabled" : true,
+      "htmlPopupFormat" : {
+        "type" : "CIMHtmlPopupFormat",
+        "htmlUseCodedDomainValues" : true,
+        "htmlPresentationStyle" : "TwoColumnTable"
+      },
+      "isFlattened" : true,
+      "selectable" : true,
+      "selectionSymbol" : {
+        "type" : "CIMSymbolReference",
+        "symbol" : {
+          "type" : "CIMPolygonSymbol",
+          "symbolLayers" : [
+            {
+              "type" : "CIMSolidStroke",
+              "enable" : true,
+              "capStyle" : "Round",
+              "joinStyle" : "Round",
+              "lineStyle3D" : "Strip",
+              "miterLimit" : 10,
+              "width" : 2,
+              "color" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  0,
+                  255,
+                  255,
+                  100
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "featureCacheType" : "None",
+      "displayFiltersType" : "ByScale",
+      "featureBlendingMode" : "Alpha",
+      "labelClasses" : [
+        {
+          "type" : "CIMLabelClass",
+          "expression" : "[PROP_NAME]",
+          "expressionEngine" : "VBScript",
+          "featuresToLabel" : "AllVisibleFeatures",
+          "maplexLabelPlacementProperties" : {
+            "type" : "CIMMaplexLabelPlacementProperties",
+            "featureType" : "Polygon",
+            "avoidPolygonHoles" : true,
+            "canOverrunFeature" : false,
+            "canPlaceLabelOutsidePolygon" : false,
+            "canRemoveOverlappingLabel" : true,
+            "canStackLabel" : true,
+            "connectionType" : "Unambiguous",
+            "constrainOffset" : "NoConstraint",
+            "contourAlignmentType" : "Page",
+            "contourLadderType" : "Straight",
+            "contourMaximumAngle" : 90,
+            "enableConnection" : true,
+            "featureWeight" : 0,
+            "fontHeightReductionLimit" : 4,
+            "fontHeightReductionStep" : 0.5,
+            "fontWidthReductionLimit" : 90,
+            "fontWidthReductionStep" : 5,
+            "graticuleAlignmentType" : "Straight",
+            "isMinimumSizeBasedOnArea" : true,
+            "keyNumberGroupName" : "Default",
+            "labelBuffer" : 15,
+            "labelLargestPolygon" : true,
+            "labelPriority" : -1,
+            "labelStackingProperties" : {
+              "type" : "CIMMaplexLabelStackingProperties",
+              "stackAlignment" : "ChooseBest",
+              "maximumNumberOfLines" : 3,
+              "minimumNumberOfCharsPerLine" : 3,
+              "maximumNumberOfCharsPerLine" : 24,
+              "separators" : [
+                {
+                  "type" : "CIMMaplexStackingSeparator",
+                  "separator" : " ",
+                  "splitAfter" : true
+                },
+                {
+                  "type" : "CIMMaplexStackingSeparator",
+                  "separator" : ",",
+                  "visible" : true,
+                  "splitAfter" : true
+                }
+              ],
+              "trimStackingSeparators" : true
+            },
+            "lineFeatureType" : "General",
+            "linePlacementMethod" : "OffsetCurvedFromLine",
+            "maximumLabelOverrun" : 80,
+            "maximumLabelOverrunUnit" : "Point",
+            "minimumFeatureSizeUnit" : "Map",
+            "multiPartOption" : "OneLabelPerPart",
+            "offsetAlongLineProperties" : {
+              "type" : "CIMMaplexOffsetAlongLineProperties",
+              "placementMethod" : "BestPositionAlongLine",
+              "labelAnchorPoint" : "CenterOfLabel",
+              "distanceUnit" : "Percentage",
+              "useLineDirection" : true
+            },
+            "pointExternalZonePriorities" : {
+              "type" : "CIMMaplexExternalZonePriorities",
+              "aboveLeft" : 4,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerRight" : 3,
+              "belowRight" : 5,
+              "belowCenter" : 7,
+              "belowLeft" : 8,
+              "centerLeft" : 6
+            },
+            "pointPlacementMethod" : "AroundPoint",
+            "polygonAnchorPointType" : "GeometricCenter",
+            "polygonBoundaryWeight" : 0,
+            "polygonExternalZones" : {
+              "type" : "CIMMaplexExternalZonePriorities",
+              "aboveLeft" : 4,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerRight" : 3,
+              "belowRight" : 5,
+              "belowCenter" : 7,
+              "belowLeft" : 8,
+              "centerLeft" : 6
+            },
+            "polygonFeatureType" : "General",
+            "polygonInternalZones" : {
+              "type" : "CIMMaplexInternalZonePriorities",
+              "center" : 1
+            },
+            "polygonPlacementMethod" : "HorizontalInPolygon",
+            "primaryOffset" : 1,
+            "primaryOffsetUnit" : "Point",
+            "removeExtraWhiteSpace" : true,
+            "repetitionIntervalUnit" : "Map",
+            "rotationProperties" : {
+              "type" : "CIMMaplexRotationProperties",
+              "rotationType" : "Arithmetic",
+              "alignmentType" : "Straight"
+            },
+            "secondaryOffset" : 100,
+            "strategyPriorities" : {
+              "type" : "CIMMaplexStrategyPriorities",
+              "stacking" : 1,
+              "overrun" : 2,
+              "fontCompression" : 3,
+              "fontReduction" : 4,
+              "abbreviation" : 5
+            },
+            "thinDuplicateLabels" : true,
+            "thinningDistanceUnit" : "Point",
+            "truncationMarkerCharacter" : ".",
+            "truncationMinimumLength" : 1,
+            "truncationPreferredCharacters" : "aeiou",
+            "polygonAnchorPointPerimeterInsetUnit" : "Point"
+          },
+          "maximumScale" : 40000,
+          "minimumScale" : 125000,
+          "name" : "Default",
+          "priority" : 6,
+          "standardLabelPlacementProperties" : {
+            "type" : "CIMStandardLabelPlacementProperties",
+            "featureType" : "Line",
+            "featureWeight" : "None",
+            "labelWeight" : "High",
+            "numLabelsOption" : "OneLabelPerName",
+            "lineLabelPosition" : {
+              "type" : "CIMStandardLineLabelPosition",
+              "above" : true,
+              "inLine" : true,
+              "parallel" : true
+            },
+            "lineLabelPriorities" : {
+              "type" : "CIMStandardLineLabelPriorities",
+              "aboveStart" : 3,
+              "aboveAlong" : 3,
+              "aboveEnd" : 3,
+              "centerStart" : 3,
+              "centerAlong" : 3,
+              "centerEnd" : 3,
+              "belowStart" : 3,
+              "belowAlong" : 3,
+              "belowEnd" : 3
+            },
+            "pointPlacementMethod" : "AroundPoint",
+            "pointPlacementPriorities" : {
+              "type" : "CIMStandardPointPlacementPriorities",
+              "aboveLeft" : 2,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerLeft" : 3,
+              "centerRight" : 2,
+              "belowLeft" : 3,
+              "belowCenter" : 3,
+              "belowRight" : 2
+            },
+            "rotationType" : "Arithmetic",
+            "polygonPlacementMethod" : "AlwaysHorizontal"
+          },
+          "textSymbol" : {
+            "type" : "CIMSymbolReference",
+            "symbol" : {
+              "type" : "CIMTextSymbol",
+              "blockProgression" : "TTB",
+              "compatibilityMode" : true,
+              "depth3D" : 1,
+              "drawSoftHyphen" : true,
+              "extrapolateBaselines" : true,
+              "flipAngle" : 90,
+              "fontEffects" : "Normal",
+              "fontEncoding" : "Unicode",
+              "fontFamilyName" : "Arial",
+              "fontStyleName" : "Bold",
+              "fontType" : "Unspecified",
+              "haloSize" : 2,
+              "haloSymbol" : {
+                "type" : "CIMPolygonSymbol",
+                "symbolLayers" : [
+                  {
+                    "type" : "CIMSolidFill",
+                    "enable" : true,
+                    "color" : {
+                      "type" : "CIMRGBColor",
+                      "values" : [
+                        85,
+                        255,
+                        0,
+                        100
+                      ]
+                    }
+                  }
+                ]
+              },
+              "height" : 18,
+              "hinting" : "Default",
+              "horizontalAlignment" : "Left",
+              "kerning" : true,
+              "letterSpacing" : 1,
+              "letterWidth" : 100,
+              "ligatures" : true,
+              "lineGapType" : "ExtraLeading",
+              "shadowColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  0,
+                  0,
+                  0,
+                  100
+                ]
+              },
+              "symbol" : {
+                "type" : "CIMPolygonSymbol",
+                "symbolLayers" : [
+                  {
+                    "type" : "CIMSolidFill",
+                    "enable" : true,
+                    "color" : {
+                      "type" : "CIMRGBColor",
+                      "values" : [
+                        0,
+                        0,
+                        0,
+                        100
+                      ]
+                    }
+                  }
+                ]
+              },
+              "textCase" : "Normal",
+              "textDirection" : "LTR",
+              "verticalAlignment" : "Baseline",
+              "verticalGlyphOrientation" : "Right",
+              "wordSpacing" : 100,
+              "billboardMode3D" : "FaceNearPlane"
+            }
+          },
+          "useCodedValue" : true,
+          "visibility" : true,
+          "iD" : -1
+        }
+      ],
+      "labelVisibility" : true,
+      "renderer" : {
+        "type" : "CIMSimpleRenderer",
+        "patch" : "Default",
+        "symbol" : {
+          "type" : "CIMSymbolReference",
+          "symbol" : {
+            "type" : "CIMPolygonSymbol",
+            "symbolLayers" : [
+              {
+                "type" : "CIMSolidStroke",
+                "enable" : true,
+                "capStyle" : "Round",
+                "joinStyle" : "Round",
+                "lineStyle3D" : "Strip",
+                "miterLimit" : 10,
+                "width" : 1.5,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    230,
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMPictureMarker",
+                "enable" : true,
+                "anchorPointUnits" : "Relative",
+                "dominantSizeAxis3D" : "Z",
+                "size" : 18,
+                "billboardMode3D" : "FaceNearPlane",
+                "markerPlacement" : {
+                  "type" : "CIMMarkerPlacementInsidePolygon",
+                  "gridType" : "Fixed",
+                  "offsetX" : 1,
+                  "randomness" : 100,
+                  "seed" : 28621,
+                  "stepX" : 19,
+                  "stepY" : 19,
+                  "offsetY" : 1,
+                  "clipping" : "ClipAtBoundary"
+                },
+                "colorSubstitutions" : [
+                  {
+                    "type" : "CIMColorSubstitution",
+                    "oldColor" : {
+                      "type" : "CIMRGBColor",
+                      "values" : [
+                        0,
+                        0,
+                        0,
+                        100
+                      ]
+                    },
+                    "newColor" : {
+                      "type" : "CIMRGBColor",
+                      "values" : [
+                        255,
+                        0,
+                        0,
+                        100
+                      ]
+                    }
+                  },
+                  {
+                    "type" : "CIMColorSubstitution",
+                    "oldColor" : {
+                      "type" : "CIMRGBColor",
+                      "values" : [
+                        255,
+                        255,
+                        255,
+                        100
+                      ]
+                    },
+                    "newColor" : {
+                      "type" : "CIMRGBColor",
+                      "values" : [
+                        240,
+                        240,
+                        240,
+                        0
+                      ]
+                    }
+                  }
+                ],
+                "invertBackfaceTexture" : true,
+                "scaleX" : 1,
+                "textureFilter" : "Draft",
+                "url" : "data:image/bmp;base64,Qk1uAAAAAAAAAD4AAAAoAAAADAAAAAwAAAABAAEAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wD/8AAA3dAAAP/wAAD/8AAA//AAAN3QAAD/8AAA//AAAP/wAADd0AAA//AAAP/wAAA="
+              }
+            ]
+          }
+        }
+      },
+      "scaleSymbols" : true,
+      "snappable" : true
+    }
+  ],
+  "binaryReferences" : [
+    {
+      "type" : "CIMBinaryReference",
+      "uRI" : "CIMPATH=Metadata/84cdc8fc44b35997c4cc353dc7780343.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20240424</CreaDate><CreaTime>11583300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>WI_County_Forests</resTitle></idCitation><idAbs>DEFINITION:\r\nThis is the County Forests layer dissolved by county from a stand (or forest management) layer used in the Wisconsin Forest Inventory &amp; Reporting System (WisFIRS) and intended for cartographic representation of county forests in Wisconsin.\r\n\"County forests\" include all county lands entered and participating under ch. 77 on October 2, 1963, and all county lands designated as county forests by the county board or the forestry committee and entered under the county forest law and designated as \"county forest lands\" or \"county special use lands\" as hereinafter provided.\r\nGEOGRAPHIC EXTENT:\r\nStatewide (Only 30 counties that have County Forest Lands).\r\nSOURCE SCALE:\r\nVaried\r\nPURPOSE/BACKGROUND:\r\nThe purpose of county forests is to provide a permanent program of county forests and to enable and encourage the planned development and management of the county forests for optimum production of forest products together with recreational opportunities, wildlife, watershed protection and stabilization of stream flow, giving full recognition to the concept of multiple-use to assure maximum public benefits; to protect the public rights, interests and investments in such lands; and to compensate the counties for the public uses, benefits and privileges these lands provide; all in a manner which will provide a reasonable revenue to the towns in which such lands lie.\u00A0 This layer was created to provide a more accurate representation of county forests beyond simply identifying PLSS quarter-quarter sections containing County Forests.\u00A0 The “PLSS method” of representation may overlap private or other ownership types.\r\nThis GIS layer was created by dissolving managed stand information from the WisFIRS Public Lands Management application.\u00A0 Stands coded as private (998 = inholding) or non-DNR (999, 9999 = non-DNR, Fed, etc.) were removed from the dissolve.\u00A0 The layer used to create this data is continually edited.\u00A0\r\nCONTACT PERSON(S):\r\nGIS contact Laura Waddle, DNR-IT, (608) 320-4648,\u00A0Laura.Waddle@Wisconsin.gov\r\nProgram contact Doug Brown, Forestry Field Operations, (715) 966-0157,\u00A0Douglas.Brown@wisconsin.gov\r\nUPDATE FREQUENCY:\r\nAnnual.\u00A0 Edits to County Forest stand information in WisFIRS used to generate the county forest feature class may occur at any time during the year; however, we will compile this layer annually.\u00A0\u00A0The GIS layer was last updated on September 20, 2021.\r\nPROJECTION:\r\nNAD_1983_HARN_Wisconsin_TM (Meters)\r\nWKID: 3071 Authority: EPSG\r\nATTRIBUTES:\r\nField Descriptions:\r\nFR_PROP_CO: Forestry Property Code assigned by DNR Forestry.\r\nPROP_NAME: Name of the property.\u00A0 Usually “County Name” County Forest\r\nCHANGE_DT: Date of most data update.\r\nCHANGE_BY: Name of person to do most recent data update.\r\nCOLL_CODE: Collection method code.\r\nOTH001: Other collection method.\r\nCOLL_TEXT: Description of collection method.\r\nADDITIONAL INFORMATION:\r\nFor more information on the Wisconsin County Forests program, refer to the official website:\u00A0\u00A0https://www.wisconsincountyforests.com/\r\nUSER ADVISORY:\r\nThe completed treatments data in WisFIRS may not be entirely complete. The majority of treatments completed in the field have been entered into WisFIRS; however, there are some treatments that have not been recorded as completed in WisFIRS - particularly those implemented prior to October 2014. Additionally, not all treatments that have been completed in WisFIRS as tabular records of completed treatments have been mapped spatially in the WisFIRS GIS application – particularly those implemented prior to October 2014. Overall, most completed treatments have been recorded and mapped, but it is important to recognize that there are treatments that have not been accounted for in WisFIRS.\r\nNeither the Department of Natural Resources nor any of its employees shall be held liable for any improper or incorrect use of the information described and/or contained herein and assumes no responsibility for anyone's use of the information.\u00A0\u00A0Furthermore, no warranty, expressed or implied, is made regarding accuracy, adequacy, completeness, legality, reliability or usefulness of any information. The Department provides this information on an \"as is\" basis. The Department has made reasonable efforts to provide you with accurate information but cannot exclude the possibility of errors or omissions in sources or of changes in actual conditions. Changes may be periodically made to the information herein; these changes may or may not be incorporated in any new version of the data. If you have obtained information from the Department from a source other than the Department, be aware that electronic data can be altered subsequent to original distribution. Data can also quickly become out-of-date. It is recommended that careful attention be paid to the contents of all data, and that the originator of the data or information be contacted with any questions regarding appropriate use.\r\n\r\n</idAbs><idCredit>WI DNR</idCredit></dataIdInfo></metadata>\r\n"
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
+}

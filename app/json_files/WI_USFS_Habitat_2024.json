@@ -1,0 +1,3318 @@
+{
+  "type": "CIMLayerDocument",
+  "version": "2.8.0",
+  "build": 29751,
+  "layers": [
+    "CIMPATH=wi_scout_n_hunt_base__2024_r4a_next_update_08_15_24/99a3e6d47959ede641ae591302795d26.xml"
+  ],
+  "layerDefinitions": [
+    {
+      "type": "CIMFeatureLayer",
+      "name": "WI_USFS_Habitat_2024",
+      "uRI": "CIMPATH=wi_scout_n_hunt_base__2024_r4a_next_update_08_15_24/99a3e6d47959ede641ae591302795d26.xml",
+      "sourceModifiedTime": {
+        "type": "TimeInstant"
+      },
+      "metadataURI": "CIMPATH=Metadata/88eae70644ba71be045ee41f30c004eb.xml",
+      "useSourceMetadata": false,
+      "layerType": "Operational",
+      "maxScale": 7500,
+      "minScale": 150000,
+      "showLegends": true,
+      "transparency": 40,
+      "visibility": true,
+      "displayCacheType": "Permanent",
+      "maxDisplayCacheAge": 5,
+      "showPopups": true,
+      "serviceLayerID": -1,
+      "refreshRate": -1,
+      "refreshRateUnit": "esriTimeUnitsSeconds",
+      "blendingMode": "Alpha",
+      "allowDrapingOnIntegratedMesh": true,
+      "featureTable": {
+        "type": "CIMFeatureTable",
+        "displayField": "EV_NAME",
+        "editable": true,
+        "fieldDescriptions": [
+          {
+            "type": "CIMFieldDescription",
+            "alias": "FID",
+            "fieldName": "FID",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "readOnly": true,
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Shape",
+            "fieldName": "Shape",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "OBJECTID",
+            "fieldName": "OBJECTID",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "STAND_ID",
+            "fieldName": "STAND_ID",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "POLY_ID",
+            "fieldName": "POLY_ID",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "REGION_ADM",
+            "fieldName": "REGION_ADM",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "FOREST_ADM",
+            "fieldName": "FOREST_ADM",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "DISTRICT_N",
+            "fieldName": "DISTRICT_N",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "REGION_PRO",
+            "fieldName": "REGION_PRO",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "FOREST_PRO",
+            "fieldName": "FOREST_PRO",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "LOCATION",
+            "fieldName": "LOCATION",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SETTING_ID",
+            "fieldName": "SETTING_ID",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "NUM_EXAMS",
+            "fieldName": "NUM_EXAMS",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "USGS_ANDER",
+            "fieldName": "USGS_ANDER",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "USGS_AND_1",
+            "fieldName": "USGS_AND_1",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "ACRES_MANU",
+            "fieldName": "ACRES_MANU",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Agency",
+            "fieldName": "AGENCY",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Habitat Type",
+            "fieldName": "EV_NAME",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Stand Structure",
+            "fieldName": "STAND_CO_2",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Acres",
+            "fieldName": "ACRES",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SLOPE_POSI",
+            "fieldName": "SLOPE_POSI",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SLOPE_SHAP",
+            "fieldName": "SLOPE_SHAP",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "TREE_HEIGH",
+            "fieldName": "TREE_HEIGH",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "CANOPY_CLO",
+            "fieldName": "CANOPY_CLO",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "STAND_COND",
+            "fieldName": "STAND_COND",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "STAND_CO_1",
+            "fieldName": "STAND_CO_1",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SAMPLE_DAT",
+            "fieldName": "SAMPLE_DAT",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "EV_REF_COD",
+            "fieldName": "EV_REF_COD",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "EV_CODE",
+            "fieldName": "EV_CODE",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "PV_REF_COD",
+            "fieldName": "PV_REF_COD",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "PV_CODE",
+            "fieldName": "PV_CODE",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "PV_NAME",
+            "fieldName": "PV_NAME",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "MGMT_TYPE_",
+            "fieldName": "MGMT_TYPE_",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "MGMT_TYPE1",
+            "fieldName": "MGMT_TYPE1",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "MGMT_TYP_1",
+            "fieldName": "MGMT_TYP_1",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "PAG_REF",
+            "fieldName": "PAG_REF",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "PAG_CODE",
+            "fieldName": "PAG_CODE",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "BASAL_AREA",
+            "fieldName": "BASAL_AREA",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SITE_INDEX",
+            "fieldName": "SITE_INDEX",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SITE_IND_1",
+            "fieldName": "SITE_IND_1",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Harvest Year",
+            "fieldName": "YEAR_OF_OR",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "STAND_AGE",
+            "fieldName": "STAND_AGE",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "NFS_LAND_C",
+            "fieldName": "NFS_LAND_C",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "DBH",
+            "fieldName": "DBH",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "TPA",
+            "fieldName": "TPA",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "TREE_LAYER",
+            "fieldName": "TREE_LAYER",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "STOCKING_P",
+            "fieldName": "STOCKING_P",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "MANAGEMENT",
+            "fieldName": "MANAGEMENT",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "PURPOSE_CO",
+            "fieldName": "PURPOSE_CO",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "MERCH_CUBI",
+            "fieldName": "MERCH_CUBI",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "EXAM_SAMPL",
+            "fieldName": "EXAM_SAMPL",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "FIRE_REGIM",
+            "fieldName": "FIRE_REGIM",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "CONDITION_",
+            "fieldName": "CONDITION_",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SAMPLE_REC",
+            "fieldName": "SAMPLE_REC",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SIZE_DENSI",
+            "fieldName": "SIZE_DENSI",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Veg",
+            "fieldName": "VEGETATION",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "CREATED_DA",
+            "fieldName": "CREATED_DA",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "MODIFIED_D",
+            "fieldName": "MODIFIED_D",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SHAPE_Leng",
+            "fieldName": "SHAPE_Leng",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SHAPE_Area",
+            "fieldName": "SHAPE_Area",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          }
+        ],
+        "timeFields": {
+          "type": "CIMTimeTableDefinition"
+        },
+        "timeDefinition": {
+          "type": "CIMTimeDataDefinition",
+          "hasLiveData": true
+        },
+        "timeDisplayDefinition": {
+          "type": "CIMTimeDisplayDefinition",
+          "timeInterval": 0,
+          "timeIntervalUnits": "esriTimeUnitsHours",
+          "timeOffsetUnits": "esriTimeUnitsYears"
+        },
+        "dataConnection": {
+          "type": "CIMStandardDataConnection",
+          "workspaceConnectionString": "DATABASE=..\\..\\..\\..\\Documents\\ArcGIS\\Packages\\WI_2024 R6_cf739b\\commondata\\2024",
+          "workspaceFactory": "Shapefile",
+          "dataset": "WI_USFS_HabitatRR",
+          "datasetType": "esriDTFeatureClass"
+        },
+        "studyAreaSpatialRel": "esriSpatialRelUndefined",
+        "searchOrder": "esriSearchOrderSpatial"
+      },
+      "featureTemplates": [
+        {
+          "type": "CIMFeatureTemplate",
+          "name": "WI_USFS_HabitatRR",
+          "tags": "Polygon",
+          "defaultValues": {
+            "type": "PropertySet",
+            "propertySetItems": [
+              "ACRES_MANU",
+              0,
+              "TPA",
+              0,
+              "PV_REF_COD",
+              "",
+              "EV_CODE",
+              "",
+              "EV_NAME",
+              "",
+              "REGION_ADM",
+              "",
+              "SETTING_ID",
+              "",
+              "STAND_ID",
+              "",
+              "SLOPE_SHAP",
+              "",
+              "AGENCY",
+              "",
+              "POLY_ID",
+              0,
+              "NUM_EXAMS",
+              0,
+              "CONDITION_",
+              0,
+              "PURPOSE_CO",
+              "",
+              "USGS_ANDER",
+              "",
+              "MGMT_TYP_1",
+              "",
+              "SLOPE_POSI",
+              "",
+              "STAND_CO_1",
+              "",
+              "REGION_PRO",
+              "",
+              "DBH",
+              0,
+              "YEAR_OF_OR",
+              0,
+              "OBJECTID",
+              0,
+              "BASAL_AREA",
+              0,
+              "STAND_AGE",
+              0,
+              "STAND_CO_2",
+              "",
+              "NFS_LAND_C",
+              "",
+              "PAG_CODE",
+              "",
+              "MERCH_CUBI",
+              0,
+              "FOREST_ADM",
+              "",
+              "STAND_COND",
+              "",
+              "FIRE_REGIM",
+              0,
+              "SHAPE_Area",
+              0,
+              "TREE_HEIGH",
+              0,
+              "EXAM_SAMPL",
+              0,
+              "MGMT_TYPE_",
+              "",
+              "ACRES",
+              0,
+              "TREE_LAYER",
+              "",
+              "CANOPY_CLO",
+              0,
+              "FOREST_PRO",
+              "",
+              "LOCATION",
+              "",
+              "SITE_INDEX",
+              "",
+              "VEGETATION",
+              0,
+              "PV_CODE",
+              "",
+              "PV_NAME",
+              "",
+              "SAMPLE_REC",
+              "",
+              "DISTRICT_N",
+              "",
+              "MANAGEMENT",
+              0,
+              "USGS_AND_1",
+              "",
+              "SITE_IND_1",
+              0,
+              "MGMT_TYPE1",
+              "",
+              "EV_REF_COD",
+              "",
+              "SIZE_DENSI",
+              0,
+              "STOCKING_P",
+              0,
+              "SHAPE_Leng",
+              0,
+              "PAG_REF",
+              ""
+            ]
+          }
+        }
+      ],
+      "htmlPopupEnabled": true,
+      "htmlPopupFormat": {
+        "type": "CIMHtmlPopupFormat",
+        "htmlUseCodedDomainValues": true,
+        "htmlPresentationStyle": "TwoColumnTable"
+      },
+      "isFlattened": true,
+      "selectable": true,
+      "selectionSymbol": {
+        "type": "CIMSymbolReference",
+        "symbol": {
+          "type": "CIMPolygonSymbol",
+          "symbolLayers": [
+            {
+              "type": "CIMSolidStroke",
+              "enable": true,
+              "capStyle": "Round",
+              "joinStyle": "Round",
+              "lineStyle3D": "Strip",
+              "miterLimit": 10,
+              "width": 2,
+              "color": {
+                "type": "CIMRGBColor",
+                "values": [
+                  0,
+                  255,
+                  255,
+                  100
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "featureCacheType": "None",
+      "displayFiltersType": "ByScale",
+      "featureBlendingMode": "Alpha",
+      "labelClasses": [
+        {
+          "type": "CIMLabelClass",
+          "expression": "[EV_CODE]",
+          "expressionEngine": "VBScript",
+          "featuresToLabel": "AllVisibleFeatures",
+          "maplexLabelPlacementProperties": {
+            "type": "CIMMaplexLabelPlacementProperties",
+            "featureType": "Polygon",
+            "avoidPolygonHoles": true,
+            "canAbbreviateLabel": true,
+            "canOverrunFeature": false,
+            "canPlaceLabelOutsidePolygon": false,
+            "canReduceFontSize": true,
+            "canRemoveOverlappingLabel": true,
+            "canStackLabel": true,
+            "connectionType": "Unambiguous",
+            "constrainOffset": "NoConstraint",
+            "contourAlignmentType": "Page",
+            "contourLadderType": "Straight",
+            "contourMaximumAngle": 90,
+            "enableConnection": true,
+            "featureWeight": 0,
+            "fontHeightReductionLimit": 4,
+            "fontHeightReductionStep": 0.5,
+            "fontWidthReductionLimit": 90,
+            "fontWidthReductionStep": 5,
+            "graticuleAlignmentType": "Straight",
+            "isMinimumSizeBasedOnArea": true,
+            "keyNumberGroupName": "Default",
+            "labelBuffer": 15,
+            "labelLargestPolygon": true,
+            "labelPriority": -1,
+            "labelStackingProperties": {
+              "type": "CIMMaplexLabelStackingProperties",
+              "stackAlignment": "ChooseBest",
+              "maximumNumberOfLines": 3,
+              "minimumNumberOfCharsPerLine": 3,
+              "maximumNumberOfCharsPerLine": 24,
+              "separators": [
+                {
+                  "type": "CIMMaplexStackingSeparator",
+                  "separator": " ",
+                  "splitAfter": true
+                },
+                {
+                  "type": "CIMMaplexStackingSeparator",
+                  "separator": ",",
+                  "visible": true,
+                  "splitAfter": true
+                }
+              ],
+              "trimStackingSeparators": true
+            },
+            "lineFeatureType": "General",
+            "linePlacementMethod": "OffsetCurvedFromLine",
+            "maximumLabelOverrun": 110,
+            "maximumLabelOverrunUnit": "Point",
+            "minimumFeatureSizeUnit": "Map",
+            "multiPartOption": "OneLabelPerPart",
+            "offsetAlongLineProperties": {
+              "type": "CIMMaplexOffsetAlongLineProperties",
+              "placementMethod": "BestPositionAlongLine",
+              "labelAnchorPoint": "CenterOfLabel",
+              "distanceUnit": "Percentage",
+              "useLineDirection": true
+            },
+            "pointExternalZonePriorities": {
+              "type": "CIMMaplexExternalZonePriorities",
+              "aboveLeft": 4,
+              "aboveCenter": 2,
+              "aboveRight": 1,
+              "centerRight": 3,
+              "belowRight": 5,
+              "belowCenter": 7,
+              "belowLeft": 8,
+              "centerLeft": 6
+            },
+            "pointPlacementMethod": "AroundPoint",
+            "polygonAnchorPointType": "GeometricCenter",
+            "polygonBoundaryWeight": 0,
+            "polygonExternalZones": {
+              "type": "CIMMaplexExternalZonePriorities",
+              "aboveLeft": 4,
+              "aboveCenter": 2,
+              "aboveRight": 1,
+              "centerRight": 3,
+              "belowRight": 5,
+              "belowCenter": 7,
+              "belowLeft": 8,
+              "centerLeft": 6
+            },
+            "polygonFeatureType": "General",
+            "polygonInternalZones": {
+              "type": "CIMMaplexInternalZonePriorities",
+              "center": 1
+            },
+            "polygonPlacementMethod": "HorizontalInPolygon",
+            "primaryOffset": 1,
+            "primaryOffsetUnit": "Point",
+            "removeExtraWhiteSpace": true,
+            "repetitionIntervalUnit": "Map",
+            "rotationProperties": {
+              "type": "CIMMaplexRotationProperties",
+              "rotationType": "Arithmetic",
+              "alignmentType": "Straight"
+            },
+            "secondaryOffset": 100,
+            "strategyPriorities": {
+              "type": "CIMMaplexStrategyPriorities",
+              "stacking": 1,
+              "overrun": 2,
+              "fontCompression": 3,
+              "fontReduction": 4,
+              "abbreviation": 5
+            },
+            "thinningDistanceUnit": "Point",
+            "truncationMarkerCharacter": ".",
+            "truncationMinimumLength": 1,
+            "truncationPreferredCharacters": "aeiou",
+            "polygonAnchorPointPerimeterInsetUnit": "Point"
+          },
+          "maximumScale": 7500,
+          "minimumScale": 70000,
+          "name": "Default",
+          "priority": 17,
+          "standardLabelPlacementProperties": {
+            "type": "CIMStandardLabelPlacementProperties",
+            "featureType": "Line",
+            "featureWeight": "None",
+            "labelWeight": "High",
+            "numLabelsOption": "OneLabelPerName",
+            "lineLabelPosition": {
+              "type": "CIMStandardLineLabelPosition",
+              "above": true,
+              "inLine": true,
+              "parallel": true
+            },
+            "lineLabelPriorities": {
+              "type": "CIMStandardLineLabelPriorities",
+              "aboveStart": 3,
+              "aboveAlong": 3,
+              "aboveEnd": 3,
+              "centerStart": 3,
+              "centerAlong": 3,
+              "centerEnd": 3,
+              "belowStart": 3,
+              "belowAlong": 3,
+              "belowEnd": 3
+            },
+            "pointPlacementMethod": "AroundPoint",
+            "pointPlacementPriorities": {
+              "type": "CIMStandardPointPlacementPriorities",
+              "aboveLeft": 2,
+              "aboveCenter": 2,
+              "aboveRight": 1,
+              "centerLeft": 3,
+              "centerRight": 2,
+              "belowLeft": 3,
+              "belowCenter": 3,
+              "belowRight": 2
+            },
+            "rotationType": "Arithmetic",
+            "polygonPlacementMethod": "AlwaysHorizontal"
+          },
+          "textSymbol": {
+            "type": "CIMSymbolReference",
+            "symbol": {
+              "type": "CIMTextSymbol",
+              "blockProgression": "TTB",
+              "compatibilityMode": true,
+              "depth3D": 1,
+              "drawSoftHyphen": true,
+              "extrapolateBaselines": true,
+              "flipAngle": 90,
+              "fontEffects": "Normal",
+              "fontEncoding": "Unicode",
+              "fontFamilyName": "Arial",
+              "fontStyleName": "Bold",
+              "fontType": "Unspecified",
+              "haloSize": 2,
+              "haloSymbol": {
+                "type": "CIMPolygonSymbol",
+                "symbolLayers": [
+                  {
+                    "type": "CIMSolidFill",
+                    "enable": true,
+                    "color": {
+                      "type": "CIMRGBColor",
+                      "values": [
+                        255,
+                        255,
+                        255,
+                        100
+                      ]
+                    }
+                  }
+                ]
+              },
+              "height": 8,
+              "hinting": "Default",
+              "horizontalAlignment": "Left",
+              "kerning": true,
+              "letterSpacing": 1,
+              "letterWidth": 100,
+              "ligatures": true,
+              "lineGapType": "ExtraLeading",
+              "shadowColor": {
+                "type": "CIMRGBColor",
+                "values": [
+                  0,
+                  0,
+                  0,
+                  100
+                ]
+              },
+              "symbol": {
+                "type": "CIMPolygonSymbol",
+                "symbolLayers": [
+                  {
+                    "type": "CIMSolidFill",
+                    "enable": true,
+                    "color": {
+                      "type": "CIMRGBColor",
+                      "values": [
+                        0,
+                        0,
+                        0,
+                        100
+                      ]
+                    }
+                  }
+                ]
+              },
+              "textCase": "Normal",
+              "textDirection": "LTR",
+              "verticalAlignment": "Baseline",
+              "verticalGlyphOrientation": "Right",
+              "wordSpacing": 100,
+              "billboardMode3D": "FaceNearPlane"
+            }
+          },
+          "useCodedValue": true,
+          "visibility": true,
+          "iD": -1
+        }
+      ],
+      "labelVisibility": true,
+      "renderer": {
+        "type": "CIMUniqueValueRenderer",
+        "colorRamp": {
+          "type": "CIMRandomHSVColorRamp",
+          "colorSpace": {
+            "type": "CIMICCColorSpace",
+            "url": "Default RGB"
+          },
+          "maxH": 360,
+          "minS": 15,
+          "maxS": 30,
+          "minV": 99,
+          "maxV": 100,
+          "minAlpha": 100,
+          "maxAlpha": 100
+        },
+        "defaultLabel": "<all other values>",
+        "defaultSymbol": {
+          "type": "CIMSymbolReference",
+          "symbol": {
+            "type": "CIMPolygonSymbol",
+            "symbolLayers": [
+              {
+                "type": "CIMSolidStroke",
+                "enable": true,
+                "capStyle": "Round",
+                "joinStyle": "Round",
+                "lineStyle3D": "Strip",
+                "miterLimit": 10,
+                "width": 0.4,
+                "color": {
+                  "type": "CIMRGBColor",
+                  "values": [
+                    180,
+                    215,
+                    158,
+                    100
+                  ]
+                }
+              },
+              {
+                "type": "CIMSolidFill",
+                "enable": true,
+                "color": {
+                  "type": "CIMRGBColor",
+                  "values": [
+                    180,
+                    215,
+                    158,
+                    100
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "defaultSymbolPatch": "Default",
+        "fields": [
+          "EV_NAME"
+        ],
+        "groups": [
+          {
+            "type": "CIMUniqueValueGroup",
+            "classes": [
+              {
+                "type": "CIMUniqueValueClass",
+                "label": " ",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      " "
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Aspen-white spruce/balsam fir",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            255,
+                            127,
+                            127,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Aspen-white spruce/balsam fir"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Balsam fir",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            115,
+                            76,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            168,
+                            132,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Balsam fir"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Balsam fir-aspen/paper birch",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            115,
+                            76,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            168,
+                            132,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Balsam fir-aspen/paper birch"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Balsam poplar",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            215,
+                            176,
+                            158,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            215,
+                            176,
+                            158,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Balsam poplar"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Bigtooth aspen",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 1,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            77,
+                            52,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMHSVColor",
+                          "values": [
+                            321,
+                            46,
+                            100,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Bigtooth aspen"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Black ash-American elm/red maple",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 1,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            19,
+                            38,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            156,
+                            104,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Black ash-American elm/red maple"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Black spruce",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            115,
+                            76,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            115,
+                            76,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Black spruce"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Eastern white pine",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            255,
+                            170,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Eastern white pine"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Eastern white pine-northern red oak/white ash",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            255,
+                            170,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Eastern white pine-northern red oak/white ash"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Hemlock",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            205,
+                            137,
+                            102,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            205,
+                            137,
+                            102,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Hemlock"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Jack pine",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            255,
+                            170,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Jack pine"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Jack pine-oak",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            255,
+                            170,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Jack pine-oak"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Lowland shrubs",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 1,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            255,
+                            255,
+                            115,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Lowland shrubs"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Mixed lowland hardwoods",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            255,
+                            127,
+                            127,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            255,
+                            127,
+                            127,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Mixed lowland hardwoods"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Mixed pines",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            115,
+                            76,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            68,
+                            137,
+                            112,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Mixed pines"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Mixed swamp conifer",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            115,
+                            76,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            68,
+                            137,
+                            112,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Mixed swamp conifer"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Mixed upland hardwoods",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            137,
+                            112,
+                            68,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Mixed upland hardwoods"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Northern hardwoods-hemlock",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 2,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            255,
+                            211,
+                            127,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            115,
+                            38,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Northern hardwoods-hemlock"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Northern pin oak",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            205,
+                            170,
+                            102,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            205,
+                            170,
+                            102,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Northern pin oak"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Northern red oak",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            205,
+                            170,
+                            102,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            205,
+                            170,
+                            102,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Northern red oak"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Northern white cedar-aspen/paper birch",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            205,
+                            205,
+                            102,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Northern white cedar-aspen/paper birch"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Northern white-cedar",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            205,
+                            205,
+                            102,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Northern white-cedar"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Oak-aspen",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            168,
+                            112,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            168,
+                            112,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Oak-aspen"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Oak-eastern white pine",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            205,
+                            137,
+                            102,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Oak-eastern white pine"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Oak-hardwoods",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            168,
+                            112,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            168,
+                            112,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Oak-hardwoods"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Open",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMHSVColor",
+                          "values": [
+                            120,
+                            0,
+                            94,
+                            0
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Open"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Paper birch",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            156,
+                            156,
+                            156,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            130,
+                            130,
+                            130,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Paper birch"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Quaking aspen",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 1,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            255,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Quaking aspen"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Red maple (dry site)",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            168,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Red maple (dry site)"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Red maple (wet site)",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            168,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Red maple (wet site)"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Red pine",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            255,
+                            170,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Red pine"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Red pine-oak",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            255,
+                            170,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Red pine-oak"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Sugar maple",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            38,
+                            6,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            243,
+                            235,
+                            194,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Sugar maple"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Sugar maple-basswood",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            38,
+                            6,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            243,
+                            235,
+                            194,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Sugar maple-basswood"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Sugar maple-beech/yellow birch",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            38,
+                            6,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            243,
+                            235,
+                            194,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Sugar maple-beech/yellow birch"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Tamarack",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            59,
+                            42,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMHSVColor",
+                          "values": [
+                            34,
+                            61,
+                            87,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Tamarack"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Upland black spruce",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            115,
+                            76,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            115,
+                            76,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Upland black spruce"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Upland shrubs",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 1,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            255,
+                            255,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "Upland shrubs"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "White spruce",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 2,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            115,
+                            76,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            76,
+                            115,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "White spruce"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "White spruce-balsam fir-aspen",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 2,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            0,
+                            115,
+                            76,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            76,
+                            115,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "White spruce-balsam fir-aspen"
+                    ]
+                  }
+                ],
+                "visible": true
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "White spruce-basalm fir",
+                "patch": "Default",
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "capStyle": "Round",
+                        "joinStyle": "Round",
+                        "lineStyle3D": "Strip",
+                        "miterLimit": 10,
+                        "width": 0.4,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            158,
+                            215,
+                            194,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [
+                            158,
+                            215,
+                            194,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": [
+                      "White spruce-basalm fir"
+                    ]
+                  }
+                ],
+                "visible": true
+              }
+            ],
+            "heading": "CNNF_FSV_4"
+          }
+        ],
+        "useDefaultSymbol": true,
+        "polygonSymbolColorTarget": "Fill"
+      },
+      "scaleSymbols": true,
+      "snappable": true
+    }
+  ],
+  "binaryReferences": [
+    {
+      "type": "CIMBinaryReference",
+      "uRI": "CIMPATH=Metadata/88eae70644ba71be045ee41f30c004eb.xml",
+      "data": "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20240424</CreaDate><CreaTime>11583300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>WI_USFS_Habitat_2024</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit></dataIdInfo></metadata>\r\n"
+    }
+  ],
+  "rGBColorProfile": "sRGB IEC61966-2.1",
+  "cMYKColorProfile": "U.S. Web Coated (SWOP) v2"
+}

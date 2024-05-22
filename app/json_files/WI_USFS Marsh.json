@@ -1,0 +1,544 @@
+{
+  "type": "CIMLayerDocument",
+  "version": "2.8.0",
+  "build": 29751,
+  "layers": [
+    "CIMPATH=wi_scout_n_hunt_base__2024_r4a_next_update_08_15_24/ab2c88a89d700ab66f7f1372b53e6e1f.xml"
+  ],
+  "layerDefinitions": [
+    {
+      "type": "CIMFeatureLayer",
+      "name": "WI_USFS Marsh",
+      "uRI": "CIMPATH=wi_scout_n_hunt_base__2024_r4a_next_update_08_15_24/ab2c88a89d700ab66f7f1372b53e6e1f.xml",
+      "sourceModifiedTime": {
+        "type": "TimeInstant"
+      },
+      "metadataURI": "CIMPATH=Metadata/55007be44052e75aab7eb7fb443e0469.xml",
+      "useSourceMetadata": false,
+      "layerType": "Operational",
+      "minScale": 80000,
+      "showLegends": true,
+      "transparency": 40,
+      "visibility": true,
+      "displayCacheType": "Permanent",
+      "maxDisplayCacheAge": 5,
+      "showPopups": true,
+      "serviceLayerID": -1,
+      "refreshRate": -1,
+      "refreshRateUnit": "esriTimeUnitsSeconds",
+      "blendingMode": "Alpha",
+      "allowDrapingOnIntegratedMesh": true,
+      "featureTable": {
+        "type": "CIMFeatureTable",
+        "displayField": "AGENCY",
+        "editable": true,
+        "fieldDescriptions": [
+          {
+            "type": "CIMFieldDescription",
+            "alias": "FID",
+            "fieldName": "FID",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "readOnly": true,
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Shape",
+            "fieldName": "Shape",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "AGENCY",
+            "fieldName": "AGENCY",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Habitat Type",
+            "fieldName": "EV_CODE",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "ACRES",
+            "fieldName": "ACRES",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Label",
+            "fieldName": "Label",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Field",
+            "fieldName": "Field",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Field1",
+            "fieldName": "Field1",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          }
+        ],
+        "timeFields": {
+          "type": "CIMTimeTableDefinition"
+        },
+        "timeDefinition": {
+          "type": "CIMTimeDataDefinition",
+          "hasLiveData": true
+        },
+        "timeDisplayDefinition": {
+          "type": "CIMTimeDisplayDefinition",
+          "timeInterval": 0,
+          "timeIntervalUnits": "esriTimeUnitsHours",
+          "timeOffsetUnits": "esriTimeUnitsYears"
+        },
+        "dataConnection": {
+          "type": "CIMStandardDataConnection",
+          "workspaceConnectionString": "DATABASE=..\\..\\..\\..\\Documents\\ArcGIS\\Packages\\WI_2024 R6_cf739b\\commondata\\meged_marsh",
+          "workspaceFactory": "Shapefile",
+          "dataset": "Marsh",
+          "datasetType": "esriDTFeatureClass"
+        },
+        "studyAreaSpatialRel": "esriSpatialRelUndefined",
+        "searchOrder": "esriSearchOrderSpatial"
+      },
+      "featureTemplates": [
+        {
+          "type": "CIMFeatureTemplate",
+          "name": "Marsh",
+          "tags": "Polygon",
+          "defaultValues": {
+            "type": "PropertySet",
+            "propertySetItems": [
+              "EV_CODE",
+              "",
+              "AGENCY",
+              "",
+              "STAND_CO_2",
+              "",
+              "ACRES",
+              0,
+              "VEGETATION",
+              0
+            ]
+          }
+        }
+      ],
+      "htmlPopupEnabled": true,
+      "htmlPopupFormat": {
+        "type": "CIMHtmlPopupFormat",
+        "htmlUseCodedDomainValues": true,
+        "htmlPresentationStyle": "TwoColumnTable"
+      },
+      "isFlattened": true,
+      "selectable": false,
+      "selectionSymbol": {
+        "type": "CIMSymbolReference",
+        "symbol": {
+          "type": "CIMPolygonSymbol",
+          "symbolLayers": [
+            {
+              "type": "CIMSolidStroke",
+              "enable": true,
+              "capStyle": "Round",
+              "joinStyle": "Round",
+              "lineStyle3D": "Strip",
+              "miterLimit": 10,
+              "width": 2,
+              "color": {
+                "type": "CIMRGBColor",
+                "values": [
+                  0,
+                  255,
+                  255,
+                  100
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "featureCacheType": "None",
+      "displayFiltersType": "ByScale",
+      "featureBlendingMode": "Alpha",
+      "labelClasses": [
+        {
+          "type": "CIMLabelClass",
+          "expression": "[Label]",
+          "expressionEngine": "VBScript",
+          "featuresToLabel": "AllVisibleFeatures",
+          "maplexLabelPlacementProperties": {
+            "type": "CIMMaplexLabelPlacementProperties",
+            "featureType": "Polygon",
+            "avoidPolygonHoles": true,
+            "canOverrunFeature": true,
+            "canPlaceLabelOutsidePolygon": false,
+            "canRemoveOverlappingLabel": true,
+            "canStackLabel": true,
+            "connectionType": "Unambiguous",
+            "constrainOffset": "NoConstraint",
+            "contourAlignmentType": "Page",
+            "contourLadderType": "Straight",
+            "contourMaximumAngle": 90,
+            "enableConnection": true,
+            "featureWeight": 0,
+            "fontHeightReductionLimit": 4,
+            "fontHeightReductionStep": 0.5,
+            "fontWidthReductionLimit": 90,
+            "fontWidthReductionStep": 5,
+            "graticuleAlignmentType": "Straight",
+            "keyNumberGroupName": "Default",
+            "labelBuffer": 15,
+            "labelLargestPolygon": false,
+            "labelPriority": -1,
+            "labelStackingProperties": {
+              "type": "CIMMaplexLabelStackingProperties",
+              "stackAlignment": "ChooseBest",
+              "maximumNumberOfLines": 3,
+              "minimumNumberOfCharsPerLine": 3,
+              "maximumNumberOfCharsPerLine": 24,
+              "separators": [
+                {
+                  "type": "CIMMaplexStackingSeparator",
+                  "separator": " ",
+                  "splitAfter": true
+                },
+                {
+                  "type": "CIMMaplexStackingSeparator",
+                  "separator": ",",
+                  "visible": true,
+                  "splitAfter": true
+                }
+              ],
+              "trimStackingSeparators": true
+            },
+            "lineFeatureType": "General",
+            "linePlacementMethod": "OffsetCurvedFromLine",
+            "maximumLabelOverrun": 80,
+            "maximumLabelOverrunUnit": "Point",
+            "minimumFeatureSizeUnit": "Map",
+            "multiPartOption": "OneLabelPerPart",
+            "offsetAlongLineProperties": {
+              "type": "CIMMaplexOffsetAlongLineProperties",
+              "placementMethod": "BestPositionAlongLine",
+              "labelAnchorPoint": "CenterOfLabel",
+              "distanceUnit": "Percentage",
+              "useLineDirection": true
+            },
+            "pointExternalZonePriorities": {
+              "type": "CIMMaplexExternalZonePriorities",
+              "aboveLeft": 4,
+              "aboveCenter": 2,
+              "aboveRight": 1,
+              "centerRight": 3,
+              "belowRight": 5,
+              "belowCenter": 7,
+              "belowLeft": 8,
+              "centerLeft": 6
+            },
+            "pointPlacementMethod": "AroundPoint",
+            "polygonAnchorPointType": "GeometricCenter",
+            "polygonBoundaryWeight": 0,
+            "polygonExternalZones": {
+              "type": "CIMMaplexExternalZonePriorities",
+              "aboveLeft": 4,
+              "aboveCenter": 2,
+              "aboveRight": 1,
+              "centerRight": 3,
+              "belowRight": 5,
+              "belowCenter": 7,
+              "belowLeft": 8,
+              "centerLeft": 6
+            },
+            "polygonFeatureType": "General",
+            "polygonInternalZones": {
+              "type": "CIMMaplexInternalZonePriorities",
+              "center": 1
+            },
+            "polygonPlacementMethod": "HorizontalInPolygon",
+            "primaryOffset": 1,
+            "primaryOffsetUnit": "Point",
+            "removeExtraWhiteSpace": true,
+            "repetitionIntervalUnit": "Map",
+            "rotationProperties": {
+              "type": "CIMMaplexRotationProperties",
+              "rotationType": "Arithmetic",
+              "alignmentType": "Straight"
+            },
+            "secondaryOffset": 100,
+            "strategyPriorities": {
+              "type": "CIMMaplexStrategyPriorities",
+              "stacking": 1,
+              "overrun": 2,
+              "fontCompression": 3,
+              "fontReduction": 4,
+              "abbreviation": 5
+            },
+            "thinningDistanceUnit": "Point",
+            "truncationMarkerCharacter": ".",
+            "truncationMinimumLength": 1,
+            "truncationPreferredCharacters": "aeiou",
+            "polygonAnchorPointPerimeterInsetUnit": "Point"
+          },
+          "maximumScale": 10000,
+          "minimumScale": 50000,
+          "name": "Default",
+          "priority": 31,
+          "standardLabelPlacementProperties": {
+            "type": "CIMStandardLabelPlacementProperties",
+            "featureType": "Line",
+            "featureWeight": "None",
+            "labelWeight": "High",
+            "numLabelsOption": "OneLabelPerName",
+            "lineLabelPosition": {
+              "type": "CIMStandardLineLabelPosition",
+              "above": true,
+              "inLine": true,
+              "parallel": true
+            },
+            "lineLabelPriorities": {
+              "type": "CIMStandardLineLabelPriorities",
+              "aboveStart": 3,
+              "aboveAlong": 3,
+              "aboveEnd": 3,
+              "centerStart": 3,
+              "centerAlong": 3,
+              "centerEnd": 3,
+              "belowStart": 3,
+              "belowAlong": 3,
+              "belowEnd": 3
+            },
+            "pointPlacementMethod": "AroundPoint",
+            "pointPlacementPriorities": {
+              "type": "CIMStandardPointPlacementPriorities",
+              "aboveLeft": 2,
+              "aboveCenter": 2,
+              "aboveRight": 1,
+              "centerLeft": 3,
+              "centerRight": 2,
+              "belowLeft": 3,
+              "belowCenter": 3,
+              "belowRight": 2
+            },
+            "rotationType": "Arithmetic",
+            "polygonPlacementMethod": "AlwaysHorizontal"
+          },
+          "textSymbol": {
+            "type": "CIMSymbolReference",
+            "symbol": {
+              "type": "CIMTextSymbol",
+              "blockProgression": "TTB",
+              "compatibilityMode": true,
+              "depth3D": 1,
+              "drawSoftHyphen": true,
+              "extrapolateBaselines": true,
+              "flipAngle": 90,
+              "fontEffects": "Normal",
+              "fontEncoding": "Unicode",
+              "fontFamilyName": "Arial",
+              "fontStyleName": "Regular",
+              "fontType": "Unspecified",
+              "haloSize": 2,
+              "haloSymbol": {
+                "type": "CIMPolygonSymbol",
+                "symbolLayers": [
+                  {
+                    "type": "CIMSolidFill",
+                    "enable": true,
+                    "color": {
+                      "type": "CIMRGBColor",
+                      "values": [
+                        255,
+                        255,
+                        255,
+                        100
+                      ]
+                    }
+                  }
+                ]
+              },
+              "height": 8,
+              "hinting": "Default",
+              "horizontalAlignment": "Left",
+              "kerning": true,
+              "letterSpacing": 1,
+              "letterWidth": 100,
+              "ligatures": true,
+              "lineGapType": "ExtraLeading",
+              "shadowColor": {
+                "type": "CIMRGBColor",
+                "values": [
+                  0,
+                  0,
+                  0,
+                  100
+                ]
+              },
+              "symbol": {
+                "type": "CIMPolygonSymbol",
+                "symbolLayers": [
+                  {
+                    "type": "CIMSolidFill",
+                    "enable": true,
+                    "color": {
+                      "type": "CIMRGBColor",
+                      "values": [
+                        0,
+                        0,
+                        0,
+                        100
+                      ]
+                    }
+                  }
+                ]
+              },
+              "textCase": "Normal",
+              "textDirection": "LTR",
+              "verticalAlignment": "Baseline",
+              "verticalGlyphOrientation": "Right",
+              "wordSpacing": 100,
+              "billboardMode3D": "FaceNearPlane"
+            }
+          },
+          "useCodedValue": true,
+          "visibility": true,
+          "iD": -1
+        }
+      ],
+      "labelVisibility": true,
+      "renderer": {
+        "type": "CIMSimpleRenderer",
+        "patch": "Default",
+        "symbol": {
+          "type": "CIMSymbolReference",
+          "symbol": {
+            "type": "CIMPolygonSymbol",
+            "symbolLayers": [
+              {
+                "type": "CIMSolidStroke",
+                "enable": true,
+                "capStyle": "Round",
+                "joinStyle": "Round",
+                "lineStyle3D": "Strip",
+                "miterLimit": 10,
+                "width": 0.4,
+                "color": {
+                  "type": "CIMRGBColor",
+                  "values": [
+                    64,
+                    101,
+                    235,
+                    100
+                  ]
+                }
+              },
+              {
+                "type": "CIMPictureFill",
+                "enable": true,
+                "url": "data:image/bmp;base64,Qk0uBAAAAAAAAD4AAAAoAAAAVAAAAFQAAAABAAEAAAAAAPADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wD/1VV9RRf//d3/8AA3+qv////339/+4AD/9q3//////9//8AD/7bb///+v////8AD/3bd/qm//////8AAz+7v//////9EycAD//7/////9////8AD//7//////////8AD/////////9FE/8AD8V/oir0V/////8AD/////////9+//8AD/////+qqv/v//oADUX/7v/1V/////8AD/////ftW///29UAD//////bbf+r//8AD/////+7bv////oAD/0TJ//3d/1Ff/8AD///////f/////8AD////yr/f/+r/ooAD0UT//9///9t//8AD///////t39t/v0AD37////////v998AD+//+iv////v//8AD/////////////8AD//b1VV////9Ff8AD6v/+qv9tV////0AD///9q3////qqr8ADUV/7bb////9Vf8AD///3bd////7Vv8AD6v/+7v//6/223sAD23//7//V/ru278AD23//7/////93f8AD+/zP//6iv//3/8AD+//////////3/0AD///////V//f//8AD/0V///+2/////8AD////VE+2/1FF/8AD+qqv///3/////QAD/1V////3/////8AD/tW/////////6oAD/bbe2qf//+qb/8ACu7bv//1F/////oAD/3d//////////8AD//f//////////8AD//f/VF////qZooAD9//////9E////8AD////////////v0ADUUX///////8r98AD///9Ff9FE////8AD/////////////8AD///qqr9+/////8AD6pv9Vf/v//or/8AD///7Vv///////8AD///223//29VVf8AD///u27+r//qr/YAD+pn93f////at/8AD////3/1Ff+22/8AD////3////923f8AD9/mf//+r//u7/4AD9/////9t//+//8AD//////9t//+//8AD/or////v8z///8AD///+qJ/v////+QAD9VVf/////////8AD/qr////9Ff///8AD/at///////1RN8AD+229tUfqqr///8ABd23f///9Vf///8AD/u7////7Vv///8AD/+/////223tqi4AD/+/+qLru27///8AD7//////93f///8AD////////3////8ACoov/////3/1Rf8AD///6K//f/////8AD/////////////8AD///VVX1FF///8oAD1Tf6q/////RX/8AD///2rf///////8AD///ttv///6qq/8AD///dt3+qb/VX/8AD9TP7u////+1b/8AD////v////9tt/8AD////v////7tu/QAA=",
+                "scaleX": 1,
+                "height": 63,
+                "textureFilter": "Draft",
+                "colorSubstitutions": [
+                  {
+                    "type": "CIMColorSubstitution",
+                    "oldColor": {
+                      "type": "CIMRGBColor",
+                      "values": [
+                        0,
+                        0,
+                        0,
+                        100
+                      ]
+                    },
+                    "newColor": {
+                      "type": "CIMRGBColor",
+                      "values": [
+                        64,
+                        101,
+                        235,
+                        100
+                      ]
+                    }
+                  },
+                  {
+                    "type": "CIMColorSubstitution",
+                    "oldColor": {
+                      "type": "CIMRGBColor",
+                      "values": [
+                        255,
+                        255,
+                        255,
+                        100
+                      ]
+                    },
+                    "newColor": {
+                      "type": "CIMRGBColor",
+                      "values": [
+                        240,
+                        240,
+                        240,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "scaleSymbols": false,
+      "snappable": true
+    }
+  ],
+  "binaryReferences": [
+    {
+      "type": "CIMBinaryReference",
+      "uRI": "CIMPATH=Metadata/55007be44052e75aab7eb7fb443e0469.xml",
+      "data": "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20240424</CreaDate><CreaTime>11583300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>WI_USFS Marsh</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit></dataIdInfo></metadata>\r\n"
+    }
+  ],
+  "rGBColorProfile": "sRGB IEC61966-2.1",
+  "cMYKColorProfile": "U.S. Web Coated (SWOP) v2"
+}

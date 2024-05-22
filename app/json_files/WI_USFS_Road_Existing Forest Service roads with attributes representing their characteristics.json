@@ -1,0 +1,765 @@
+{
+  "type": "CIMLayerDocument",
+  "version": "2.8.0",
+  "build": 29751,
+  "layers": [
+    "CIMPATH=wi_scout_n_hunt_base__2024_r4a_next_update_08_15_24/a01958a0e00a8f81fc99d3234d3beb2c.xml"
+  ],
+  "layerDefinitions": [
+    {
+      "type": "CIMFeatureLayer",
+      "name": "WI_USFS_Road_Existing Forest Service roads with attributes representing their characteristics",
+      "uRI": "CIMPATH=wi_scout_n_hunt_base__2024_r4a_next_update_08_15_24/a01958a0e00a8f81fc99d3234d3beb2c.xml",
+      "sourceModifiedTime": {
+        "type": "TimeInstant"
+      },
+      "metadataURI": "CIMPATH=Metadata/e2da231c3186584703fb66ee707d351b.xml",
+      "useSourceMetadata": false,
+      "layerType": "Operational",
+      "maxScale": 7500,
+      "minScale": 80000,
+      "showLegends": true,
+      "visibility": true,
+      "displayCacheType": "Permanent",
+      "maxDisplayCacheAge": 5,
+      "showPopups": true,
+      "serviceLayerID": -1,
+      "refreshRate": -1,
+      "refreshRateUnit": "esriTimeUnitsSeconds",
+      "blendingMode": "Alpha",
+      "allowDrapingOnIntegratedMesh": true,
+      "featureTable": {
+        "type": "CIMFeatureTable",
+        "displayField": "NAME",
+        "editable": true,
+        "fieldDescriptions": [
+          {
+            "type": "CIMFieldDescription",
+            "alias": "FID",
+            "fieldName": "FID",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 0
+            },
+            "readOnly": true,
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "Shape",
+            "fieldName": "Shape",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "RTE_CN",
+            "fieldName": "RTE_CN",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "BMP",
+            "fieldName": "BMP",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 4
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "EMP",
+            "fieldName": "EMP",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 4
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "ID",
+            "fieldName": "ID",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "NAME",
+            "fieldName": "NAME",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SYMBOL_COD",
+            "fieldName": "SYMBOL_COD",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SEG_LENGTH",
+            "fieldName": "SEG_LENGTH",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 4
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "JURISDICTI",
+            "fieldName": "JURISDICTI",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SYSTEM",
+            "fieldName": "SYSTEM",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "ROUTE_STAT",
+            "fieldName": "ROUTE_STAT",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "OPER_MAINT",
+            "fieldName": "OPER_MAINT",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "OBJECTIVE_",
+            "fieldName": "OBJECTIVE_",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "FUNCTIONAL",
+            "fieldName": "FUNCTIONAL",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SURFACE_TY",
+            "fieldName": "SURFACE_TY",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "LANES",
+            "fieldName": "LANES",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "PRIMARY_MA",
+            "fieldName": "PRIMARY_MA",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "COUNTY",
+            "fieldName": "COUNTY",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "CONGRESSIO",
+            "fieldName": "CONGRESSIO",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "ADMIN_ORG",
+            "fieldName": "ADMIN_ORG",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SERVICE_LI",
+            "fieldName": "SERVICE_LI",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "LEVEL_OF_S",
+            "fieldName": "LEVEL_OF_S",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "PFSR_CLASS",
+            "fieldName": "PFSR_CLASS",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "MANAGING_O",
+            "fieldName": "MANAGING_O",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "LOC_ERROR",
+            "fieldName": "LOC_ERROR",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "GIS_MILES",
+            "fieldName": "GIS_MILES",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 4
+            },
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SECURITY_I",
+            "fieldName": "SECURITY_I",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "OPENFORUSE",
+            "fieldName": "OPENFORUSE",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "IVM_SYMBOL",
+            "fieldName": "IVM_SYMBOL",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SYMBOL_NAM",
+            "fieldName": "SYMBOL_NAM",
+            "visible": true,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "GLOBALID",
+            "fieldName": "GLOBALID",
+            "visible": false,
+            "searchMode": "Exact"
+          },
+          {
+            "type": "CIMFieldDescription",
+            "alias": "SHAPE_LEN",
+            "fieldName": "SHAPE_LEN",
+            "numberFormat": {
+              "type": "CIMNumericFormat",
+              "alignmentOption": "esriAlignRight",
+              "alignmentWidth": 12,
+              "roundingOption": "esriRoundNumberOfDecimals",
+              "roundingValue": 6
+            },
+            "visible": false,
+            "searchMode": "Exact"
+          }
+        ],
+        "timeFields": {
+          "type": "CIMTimeTableDefinition"
+        },
+        "timeDefinition": {
+          "type": "CIMTimeDataDefinition",
+          "hasLiveData": true
+        },
+        "timeDisplayDefinition": {
+          "type": "CIMTimeDisplayDefinition",
+          "timeInterval": 0,
+          "timeIntervalUnits": "esriTimeUnitsHours",
+          "timeOffsetUnits": "esriTimeUnitsYears"
+        },
+        "dataConnection": {
+          "type": "CIMStandardDataConnection",
+          "workspaceConnectionString": "DATABASE=..\\..\\..\\..\\Documents\\ArcGIS\\Packages\\WI_2024 R6_cf739b\\commondata\\usfs_transportation",
+          "workspaceFactory": "Shapefile",
+          "dataset": "WI_USFS_RoadCore",
+          "datasetType": "esriDTFeatureClass"
+        },
+        "studyAreaSpatialRel": "esriSpatialRelUndefined",
+        "searchOrder": "esriSearchOrderSpatial"
+      },
+      "featureTemplates": [
+        {
+          "type": "CIMFeatureTemplate",
+          "name": "WI_USFS_Road_Existing Forest Service roads with attributes representing their characteristics",
+          "tags": "Line",
+          "defaultValues": {
+            "type": "PropertySet",
+            "propertySetItems": [
+              "SYMBOL_COD",
+              "",
+              "SYMBOL_NAM",
+              "",
+              "GIS_MILES",
+              0,
+              "BMP",
+              0,
+              "LANES",
+              "",
+              "GLOBALID",
+              "",
+              "SEG_LENGTH",
+              0,
+              "SURFACE_TY",
+              "",
+              "LOC_ERROR",
+              "",
+              "SERVICE_LI",
+              "",
+              "EMP",
+              0,
+              "SECURITY_I",
+              "",
+              "SHAPE_LEN",
+              0,
+              "RTE_CN",
+              "",
+              "OBJECTIVE_",
+              "",
+              "ROUTE_STAT",
+              "",
+              "COUNTY",
+              "",
+              "OPENFORUSE",
+              "",
+              "ID",
+              "",
+              "LEVEL_OF_S",
+              "",
+              "PRIMARY_MA",
+              "",
+              "OPER_MAINT",
+              "",
+              "MANAGING_O",
+              "",
+              "NAME",
+              "",
+              "JURISDICTI",
+              "",
+              "FUNCTIONAL",
+              "",
+              "IVM_SYMBOL",
+              "",
+              "SYSTEM",
+              "",
+              "CONGRESSIO",
+              "",
+              "ADMIN_ORG",
+              "",
+              "PFSR_CLASS",
+              ""
+            ]
+          }
+        }
+      ],
+      "htmlPopupEnabled": true,
+      "htmlPopupFormat": {
+        "type": "CIMHtmlPopupFormat",
+        "htmlUseCodedDomainValues": true,
+        "htmlPresentationStyle": "TwoColumnTable"
+      },
+      "isFlattened": true,
+      "selectable": true,
+      "selectionSymbol": {
+        "type": "CIMSymbolReference",
+        "symbol": {
+          "type": "CIMLineSymbol",
+          "symbolLayers": [
+            {
+              "type": "CIMSolidStroke",
+              "enable": true,
+              "capStyle": "Round",
+              "joinStyle": "Round",
+              "lineStyle3D": "Strip",
+              "miterLimit": 10,
+              "width": 2,
+              "color": {
+                "type": "CIMRGBColor",
+                "values": [
+                  0,
+                  255,
+                  255,
+                  100
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "featureCacheType": "None",
+      "displayFiltersType": "ByScale",
+      "featureBlendingMode": "Alpha",
+      "labelClasses": [
+        {
+          "type": "CIMLabelClass",
+          "expression": "[NAME]",
+          "expressionEngine": "VBScript",
+          "featuresToLabel": "AllVisibleFeatures",
+          "maplexLabelPlacementProperties": {
+            "type": "CIMMaplexLabelPlacementProperties",
+            "featureType": "Line",
+            "avoidPolygonHoles": true,
+            "canOverrunFeature": false,
+            "canPlaceLabelOutsidePolygon": true,
+            "canReduceFontSize": true,
+            "canRemoveOverlappingLabel": true,
+            "canStackLabel": true,
+            "connectionType": "MinimizeLabels",
+            "constrainOffset": "AboveLine",
+            "contourAlignmentType": "Page",
+            "contourLadderType": "Straight",
+            "contourMaximumAngle": 90,
+            "enableConnection": true,
+            "featureWeight": 0,
+            "fontHeightReductionLimit": 4,
+            "fontHeightReductionStep": 0.5,
+            "fontWidthReductionLimit": 90,
+            "fontWidthReductionStep": 5,
+            "graticuleAlignmentType": "Straight",
+            "keyNumberGroupName": "Default",
+            "labelBuffer": 15,
+            "labelLargestPolygon": true,
+            "labelPriority": -1,
+            "labelStackingProperties": {
+              "type": "CIMMaplexLabelStackingProperties",
+              "stackAlignment": "ChooseBest",
+              "maximumNumberOfLines": 3,
+              "minimumNumberOfCharsPerLine": 3,
+              "maximumNumberOfCharsPerLine": 24,
+              "separators": [
+                {
+                  "type": "CIMMaplexStackingSeparator",
+                  "separator": " ",
+                  "splitAfter": true
+                },
+                {
+                  "type": "CIMMaplexStackingSeparator",
+                  "separator": ",",
+                  "visible": true,
+                  "splitAfter": true
+                }
+              ],
+              "trimStackingSeparators": true
+            },
+            "lineFeatureType": "General",
+            "linePlacementMethod": "OffsetStraightFromLine",
+            "maximumLabelOverrun": 16,
+            "maximumLabelOverrunUnit": "Point",
+            "minimumFeatureSizeUnit": "Map",
+            "multiPartOption": "OneLabelPerFeature",
+            "offsetAlongLineProperties": {
+              "type": "CIMMaplexOffsetAlongLineProperties",
+              "placementMethod": "BestPositionAlongLine",
+              "labelAnchorPoint": "CenterOfLabel",
+              "distanceUnit": "Map",
+              "useLineDirection": true
+            },
+            "pointExternalZonePriorities": {
+              "type": "CIMMaplexExternalZonePriorities",
+              "aboveLeft": 4,
+              "aboveCenter": 2,
+              "aboveRight": 1,
+              "centerRight": 3,
+              "belowRight": 5,
+              "belowCenter": 7,
+              "belowLeft": 8,
+              "centerLeft": 6
+            },
+            "pointPlacementMethod": "AroundPoint",
+            "polygonAnchorPointType": "GeometricCenter",
+            "polygonBoundaryWeight": 0,
+            "polygonExternalZones": {
+              "type": "CIMMaplexExternalZonePriorities",
+              "aboveLeft": 4,
+              "aboveCenter": 2,
+              "aboveRight": 1,
+              "centerRight": 3,
+              "belowRight": 5,
+              "belowCenter": 7,
+              "belowLeft": 8,
+              "centerLeft": 6
+            },
+            "polygonFeatureType": "General",
+            "polygonInternalZones": {
+              "type": "CIMMaplexInternalZonePriorities",
+              "center": 1
+            },
+            "polygonPlacementMethod": "CurvedInPolygon",
+            "primaryOffset": 1,
+            "primaryOffsetUnit": "Point",
+            "removeExtraWhiteSpace": true,
+            "repetitionIntervalUnit": "Map",
+            "rotationProperties": {
+              "type": "CIMMaplexRotationProperties",
+              "rotationType": "Arithmetic",
+              "alignmentType": "Straight"
+            },
+            "secondaryOffset": 100,
+            "strategyPriorities": {
+              "type": "CIMMaplexStrategyPriorities",
+              "stacking": 1,
+              "overrun": 2,
+              "fontCompression": 3,
+              "fontReduction": 4,
+              "abbreviation": 5
+            },
+            "thinDuplicateLabels": true,
+            "thinningDistanceUnit": "Point",
+            "truncationMarkerCharacter": ".",
+            "truncationMinimumLength": 1,
+            "truncationPreferredCharacters": "aeiou",
+            "polygonAnchorPointPerimeterInsetUnit": "Point"
+          },
+          "maximumScale": 7500,
+          "minimumScale": 60000,
+          "name": "Default",
+          "priority": 14,
+          "standardLabelPlacementProperties": {
+            "type": "CIMStandardLabelPlacementProperties",
+            "featureType": "Line",
+            "featureWeight": "None",
+            "labelWeight": "High",
+            "numLabelsOption": "OneLabelPerName",
+            "lineLabelPosition": {
+              "type": "CIMStandardLineLabelPosition",
+              "above": true,
+              "inLine": true,
+              "parallel": true
+            },
+            "lineLabelPriorities": {
+              "type": "CIMStandardLineLabelPriorities",
+              "aboveStart": 3,
+              "aboveAlong": 3,
+              "aboveEnd": 3,
+              "centerStart": 3,
+              "centerAlong": 3,
+              "centerEnd": 3,
+              "belowStart": 3,
+              "belowAlong": 3,
+              "belowEnd": 3
+            },
+            "pointPlacementMethod": "AroundPoint",
+            "pointPlacementPriorities": {
+              "type": "CIMStandardPointPlacementPriorities",
+              "aboveLeft": 2,
+              "aboveCenter": 2,
+              "aboveRight": 1,
+              "centerLeft": 3,
+              "centerRight": 2,
+              "belowLeft": 3,
+              "belowCenter": 3,
+              "belowRight": 2
+            },
+            "rotationType": "Arithmetic",
+            "polygonPlacementMethod": "AlwaysHorizontal"
+          },
+          "textSymbol": {
+            "type": "CIMSymbolReference",
+            "symbol": {
+              "type": "CIMTextSymbol",
+              "blockProgression": "TTB",
+              "compatibilityMode": true,
+              "depth3D": 1,
+              "drawSoftHyphen": true,
+              "extrapolateBaselines": true,
+              "flipAngle": 90,
+              "fontEffects": "Normal",
+              "fontEncoding": "Unicode",
+              "fontFamilyName": "Arial",
+              "fontStyleName": "Bold",
+              "fontType": "Unspecified",
+              "haloSize": 2,
+              "haloSymbol": {
+                "type": "CIMPolygonSymbol",
+                "symbolLayers": [
+                  {
+                    "type": "CIMSolidFill",
+                    "enable": true,
+                    "color": {
+                      "type": "CIMRGBColor",
+                      "values": [
+                        255,
+                        255,
+                        255,
+                        100
+                      ]
+                    }
+                  }
+                ]
+              },
+              "height": 9,
+              "hinting": "Default",
+              "horizontalAlignment": "Left",
+              "kerning": true,
+              "letterSpacing": 1,
+              "letterWidth": 100,
+              "ligatures": true,
+              "lineGapType": "ExtraLeading",
+              "shadowColor": {
+                "type": "CIMRGBColor",
+                "values": [
+                  0,
+                  0,
+                  0,
+                  100
+                ]
+              },
+              "symbol": {
+                "type": "CIMPolygonSymbol",
+                "symbolLayers": [
+                  {
+                    "type": "CIMSolidFill",
+                    "enable": true,
+                    "color": {
+                      "type": "CIMRGBColor",
+                      "values": [
+                        0,
+                        0,
+                        0,
+                        100
+                      ]
+                    }
+                  }
+                ]
+              },
+              "textCase": "Normal",
+              "textDirection": "LTR",
+              "verticalAlignment": "Baseline",
+              "verticalGlyphOrientation": "Right",
+              "wordSpacing": 100,
+              "billboardMode3D": "FaceNearPlane"
+            }
+          },
+          "useCodedValue": true,
+          "visibility": true,
+          "iD": -1
+        }
+      ],
+      "labelVisibility": true,
+      "renderer": {
+        "type": "CIMSimpleRenderer",
+        "patch": "Default",
+        "symbol": {
+          "type": "CIMSymbolReference",
+          "symbol": {
+            "type": "CIMLineSymbol",
+            "symbolLayers": [
+              {
+                "type": "CIMSolidStroke",
+                "effects": [
+                  {
+                    "type": "CIMGeometricEffectDashes",
+                    "dashTemplate": [
+                      20,
+                      20
+                    ],
+                    "lineDashEnding": "NoConstraint",
+                    "controlPointEnding": "NoConstraint"
+                  }
+                ],
+                "enable": true,
+                "capStyle": "Butt",
+                "joinStyle": "Round",
+                "lineStyle3D": "Strip",
+                "miterLimit": 10,
+                "width": 2.1848739495798317,
+                "color": {
+                  "type": "CIMRGBColor",
+                  "values": [
+                    230,
+                    230,
+                    0,
+                    100
+                  ]
+                }
+              },
+              {
+                "type": "CIMSolidStroke",
+                "enable": true,
+                "colorLocked": true,
+                "capStyle": "Butt",
+                "joinStyle": "Round",
+                "lineStyle3D": "Strip",
+                "miterLimit": 10,
+                "width": 4,
+                "color": {
+                  "type": "CIMRGBColor",
+                  "values": [
+                    0,
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      "scaleSymbols": true,
+      "snappable": true
+    }
+  ],
+  "binaryReferences": [
+    {
+      "type": "CIMBinaryReference",
+      "uRI": "CIMPATH=Metadata/e2da231c3186584703fb66ee707d351b.xml",
+      "data": "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20240424</CreaDate><CreaTime>11583300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>WI_USFS_Road_Existing Forest Service roads with attributes representing their characteristics</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit></dataIdInfo></metadata>\r\n"
+    }
+  ],
+  "rGBColorProfile": "sRGB IEC61966-2.1",
+  "cMYKColorProfile": "U.S. Web Coated (SWOP) v2"
+}
